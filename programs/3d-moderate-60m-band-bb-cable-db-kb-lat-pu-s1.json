@@ -1,0 +1,64 @@
+{
+  "id": "3d-moderate-60m-band-bb-cable-db-kb-lat-pu-s1",
+  "name": "Newbie Full Body 3x · 60min · Moderate",
+  "description": "3 days/week, ~60 min sessions, moderate intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "band",
+      "barbell",
+      "dualPulley",
+      "dumbbell",
+      "kettlebell",
+      "latPulldown",
+      "pullUpBar"
+    ],
+    "intensity": "moderate",
+    "durationMin": 60,
+    "daysPerWeek": 3,
+    "seed": 1
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 52,
+      "exercises": [
+        "Squat, Barbell",
+        "Bench Press, Barbell",
+        "Seated Row, Cable",
+        "Dead Bug, Bodyweight",
+        "Bicep Curl, Cable",
+        "Lateral Raise, Dumbbell",
+        "Standing Calf Raise, Dumbbell"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 52,
+      "exercises": [
+        "Deadlift, Barbell",
+        "Shoulder Press, Dumbbell",
+        "Lat Pulldown, Cable",
+        "Reverse Lunge, Dumbbell",
+        "Triceps Pushdown, Cable",
+        "Standing Row Rear Delt With Rope, Cable",
+        "Cable Crunch, Cable"
+      ]
+    },
+    {
+      "name": "Full Body C",
+      "estMinutes": 52,
+      "exercises": [
+        "Squat, Barbell",
+        "Incline Bench Press, Dumbbell",
+        "Bent Over Row, Barbell",
+        "Hip Thrust, Barbell",
+        "Cable Crunch, Cable",
+        "Hammer Curl, Dumbbell",
+        "Triceps Extension, Dumbbell"
+      ]
+    }
+  ],
+  "text": "// 3 days/week, ~60 min sessions, moderate intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.\n# Week 1\n// Estimated ~52 min\n## Full Body A\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Shoulder blades pinched, bar to lower chest, feet planted.\nBench Press, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Low pulley, sit tall, pull handles to your ribs.\nSeated Row, Cable / 3x8 / 20kg / 120s / progress: dp(2.5kg, 8, 12)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Low pulley, elbows still, squeeze at the top.\nBicep Curl, Cable / 3x10 / 7.5kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Lead with the elbows, raise to shoulder height.\nLateral Raise, Dumbbell / 3x10 / 4kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// On a step if you can, pause at the top.\nStanding Calf Raise, Dumbbell / 3x10 / 10kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n\n// Estimated ~52 min\n## Full Body B\n// Bar over mid-foot, flat back, push the floor away.\nDeadlift, Barbell / 3x8 / 40kg / 120s / progress: lp(5kg, 1, 0, 10%, 3, 0)\n// Seated or standing, press up without arching your back.\nShoulder Press, Dumbbell / 3x8 / 8kg / 120s / progress: dp(2kg, 8, 12)\n// Thighs under the pad, pull the bar to your upper chest.\nLat Pulldown, Cable / 3x8 / 25kg / 120s / progress: dp(2.5kg, 8, 12)\n// Step back, front shin vertical, push through the front heel.\nReverse Lunge, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Pulley high, elbows pinned, push down to lockout.\nTriceps Pushdown, Cable / 3x10 / 12.5kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Rope at face height, pull to your forehead, elbows high.\nStanding Row Rear Delt With Rope, Cable / 3x10 / 7.5kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Pulley high, kneel with the rope, crunch ribs toward hips.\nCable Crunch, Cable / 3x10 / 15kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n\n// Estimated ~52 min\n## Full Body C\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 3x8 / 20kg / 120s\n// Bench at ~30°, press up and slightly back.\nIncline Bench Press, Dumbbell / 3x8 / 8kg / 120s / progress: dp(2kg, 8, 12)\n// Hinge to ~45°, pull the bar to your belly button.\nBent Over Row, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Upper back on the bench, chin tucked, squeeze at the top.\nHip Thrust, Barbell / 3x10 / 30kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Pulley high, kneel with the rope, crunch ribs toward hips.\nCable Crunch, Cable / 3x10 / 15kg / 75s / warmup: none\n// Palms facing each other the whole time.\nHammer Curl, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// One dumbbell overhead with both hands, lower behind your head.\nTriceps Extension, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n",
+  "starter": true
+}

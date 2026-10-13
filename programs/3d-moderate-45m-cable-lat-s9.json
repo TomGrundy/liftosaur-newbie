@@ -1,0 +1,56 @@
+{
+  "id": "3d-moderate-45m-cable-lat-s9",
+  "name": "Newbie Full Body 3x · 45min · Moderate",
+  "description": "3 days/week, ~45 min sessions, moderate intensity. Equipment: Dual adjustable pulley (cable), Lat pulldown station.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "dualPulley",
+      "latPulldown"
+    ],
+    "intensity": "moderate",
+    "durationMin": 45,
+    "daysPerWeek": 3,
+    "seed": 9
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 42,
+      "exercises": [
+        "Squat, Bodyweight",
+        "Bench Press, Cable",
+        "Seated Row, Cable",
+        "Dead Bug, Bodyweight",
+        "Bicep Curl, Cable",
+        "Lateral Raise, Cable"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 41,
+      "exercises": [
+        "Cable Pull Through, Cable",
+        "Shoulder Press, Cable",
+        "Lat Pulldown, Cable",
+        "Reverse Lunge, Cable",
+        "Triceps Pushdown, Cable"
+      ]
+    },
+    {
+      "name": "Full Body C",
+      "estMinutes": 43,
+      "exercises": [
+        "Squat, Bodyweight",
+        "Push Up, Bodyweight",
+        "Seated Row, Cable",
+        "Glute Kickback, Cable",
+        "Cable Crunch, Cable",
+        "Bicep Curl, Cable",
+        "Diamond Push Up, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 3 days/week, ~45 min sessions, moderate intensity. Equipment: Dual adjustable pulley (cable), Lat pulldown station.\n# Week 1\n// Estimated ~42 min\n## Full Body A\n// Arms forward for balance, full depth you can control.\nSquat, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Pulleys at chest height, step forward, press handles together.\nBench Press, Cable / 3x8 / 10kg / 120s / progress: dp(2.5kg, 8, 12)\n// Low pulley, sit tall, pull handles to your ribs.\nSeated Row, Cable / 3x8 / 20kg / 120s / progress: dp(2.5kg, 8, 12)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Low pulley, elbows still, squeeze at the top.\nBicep Curl, Cable / 3x10 / 7.5kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Low pulley across your body, raise out to the side.\nLateral Raise, Cable / 3x10 / 5kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n\n// Estimated ~41 min\n## Full Body B\n// Low pulley with rope, face away, hinge and squeeze glutes.\nCable Pull Through, Cable / 3x8 / 15kg / 120s / progress: dp(2.5kg, 8, 12)\n// Low pulleys, sit or kneel between them, press overhead.\nShoulder Press, Cable / 3x8 / 7.5kg / 120s / progress: dp(2.5kg, 8, 12)\n// Thighs under the pad, pull the bar to your upper chest.\nLat Pulldown, Cable / 3x8 / 25kg / 120s / progress: dp(2.5kg, 8, 12)\n// Hold handles from the low pulleys, step back.\nReverse Lunge, Cable / 3x10 / 10kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Elbows pinned, push the bar/rope down to full lockout.\nTriceps Pushdown, Cable / 3x10 / 15kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n\n// Estimated ~43 min\n## Full Body C\n// Arms forward for balance, full depth you can control.\nSquat, Bodyweight / 3x8 / 0kg / 75s / warmup: none\n// Body in one straight line, chest to just above the floor.\nPush Up, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Low pulley, sit tall, pull handles to your ribs.\nSeated Row, Cable / 3x8 / 20kg / 120s\n// Ankle strap on the low pulley, kick back without arching.\nGlute Kickback, Cable / 3x10 / 5kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Kneel with the rope, crunch ribs toward hips.\nCable Crunch, Cable / 3x10 / 15kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Low pulley, elbows still, squeeze at the top.\nBicep Curl, Cable / 3x10 / 7.5kg / 75s / warmup: none\n// Hands together under your chest, elbows close.\nDiamond Push Up, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n",
+  "starter": true
+}

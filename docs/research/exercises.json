@@ -1,0 +1,7776 @@
+[
+ {
+  "id": "abWheel",
+  "name": "Ab Wheel",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Ab Wheel (or Ab Wheel, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Deltoid Posterior",
+   "Latissimus Dorsi",
+   "Pectineous",
+   "Pectoralis Major Sternal Head",
+   "Sartorius",
+   "Serratus Anterior",
+   "Tensor Fasciae Latae",
+   "Teres Major"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "arnoldPress",
+  "name": "Arnold Press",
+  "equipment": [
+   "dumbbell",
+   "kettlebell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Arnold Press (or Arnold Press, Dumbbell)",
+   "Arnold Press, Kettlebell"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "aroundTheWorld",
+  "name": "Around The World",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Around The World (or Around The World, Dumbbell)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Latissimus Dorsi",
+   "Serratus Anterior"
+  ],
+  "bodyParts": [
+   "Chest",
+   "Shoulders"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "backExtension",
+  "name": "Back Extension",
+  "equipment": [
+   "bodyweight",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Back Extension, Bodyweight",
+   "Back Extension (or Back Extension, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "core"
+  ],
+  "targetMuscles": [
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 50,
+  "startingWeightKg": 22.5
+ },
+ {
+  "id": "ballSlams",
+  "name": "Ball Slams",
+  "equipment": [
+   "medicineball"
+  ],
+  "defaultEquipment": "medicineball",
+  "equipmentDisplayNames": [
+   "Medicine Ball"
+  ],
+  "programTextForms": [
+   "Ball Slams (or Ball Slams, Medicine Ball)"
+  ],
+  "types": [
+   "core",
+   "upper"
+  ],
+  "targetMuscles": [
+   "Infraspinatus",
+   "Latissimus Dorsi",
+   "Teres Major",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 10,
+  "startingWeightKg": 4.5
+ },
+ {
+  "id": "battleRopes",
+  "name": "Battle Ropes",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Battle Ropes (or Battle Ropes, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "core"
+  ],
+  "targetMuscles": [
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Lateral",
+   "Infraspinatus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "behindTheNeckPress",
+  "name": "Behind The Neck Press",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Behind The Neck Press (or Behind The Neck Press, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "benchDip",
+  "name": "Bench Dip",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Bench Dip (or Bench Dip, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head",
+   "Serratus Anterior",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "benchPress",
+  "name": "Bench Press",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "smith",
+   "band",
+   "kettlebell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Smith Machine",
+   "Band",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Bench Press (or Bench Press, Barbell)",
+   "Bench Press, Cable",
+   "Bench Press, Dumbbell",
+   "Bench Press, Smith Machine",
+   "Bench Press, Band",
+   "Bench Press, Kettlebell"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 135,
+  "startingWeightKg": 60
+ },
+ {
+  "id": "benchPressCloseGrip",
+  "name": "Bench Press Close Grip",
+  "equipment": [
+   "barbell",
+   "ezbar",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "EZ Bar",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Bench Press Close Grip (or Bench Press Close Grip, Barbell)",
+   "Bench Press Close Grip, EZ Bar",
+   "Bench Press Close Grip, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 115,
+  "startingWeightKg": 50
+ },
+ {
+  "id": "benchPressWideGrip",
+  "name": "Bench Press Wide Grip",
+  "equipment": [
+   "barbell",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Bench Press Wide Grip (or Bench Press Wide Grip, Barbell)",
+   "Bench Press Wide Grip, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 135,
+  "startingWeightKg": 60
+ },
+ {
+  "id": "bentOverOneArmRow",
+  "name": "Bent Over One Arm Row",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Bent Over One Arm Row (or Bent Over One Arm Row, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "bentOverRow",
+  "name": "Bent Over Row",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "band",
+   "leverageMachine",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Band",
+   "Leverage Machine",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Bent Over Row (or Bent Over Row, Barbell)",
+   "Bent Over Row, Cable",
+   "Bent Over Row, Dumbbell",
+   "Bent Over Row, Band",
+   "Bent Over Row, Leverage Machine",
+   "Bent Over Row, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "bicepCurl",
+  "name": "Bicep Curl",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "band",
+   "leverageMachine",
+   "cable",
+   "ezbar"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Band",
+   "Leverage Machine",
+   "Cable",
+   "EZ Bar"
+  ],
+  "programTextForms": [
+   "Bicep Curl, Barbell",
+   "Bicep Curl (or Bicep Curl, Dumbbell)",
+   "Bicep Curl, Band",
+   "Bicep Curl, Leverage Machine",
+   "Bicep Curl, Cable",
+   "Bicep Curl, EZ Bar"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Biceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "bicycleCrunch",
+  "name": "Bicycle Crunch",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Bicycle Crunch (or Bicycle Crunch, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques",
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Gluteus Maximus",
+   "Iliopsoas",
+   "Quadriceps"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "boxJump",
+  "name": "Box Jump",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Box Jump (or Box Jump, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Gluteus Maximus",
+   "Gastrocnemius",
+   "Soleus"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Adductor Magnus",
+   "Erector Spinae",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "boxSquat",
+  "name": "Box Squat",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Box Squat (or Box Squat, Barbell)",
+   "Box Squat, Dumbbell"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 155,
+  "startingWeightKg": 70
+ },
+ {
+  "id": "bulgarianSplitSquat",
+  "name": "Bulgarian Split Squat",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Bulgarian Split Squat (or Bulgarian Split Squat, Dumbbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "burpee",
+  "name": "Burpee",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Burpee (or Burpee, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "core"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Gluteus Maximus",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head",
+   "Triceps Brachii",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Biceps Brachii",
+   "Brachialis",
+   "Latissimus Dorsi",
+   "Obliques",
+   "Erector Spinae",
+   "Obliques",
+   "Soleus",
+   "Gastrocnemius",
+   "Tibialis Anterior"
+  ],
+  "bodyParts": [
+   "Chest",
+   "Shoulders",
+   "Upper Arms",
+   "Waist",
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "cableCrossover",
+  "name": "Cable Crossover",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Cable Crossover (or Cable Crossover, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "cableCrunch",
+  "name": "Cable Crunch",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Cable Crunch (or Cable Crunch, Cable)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 50,
+  "startingWeightKg": 22.5
+ },
+ {
+  "id": "cableKickback",
+  "name": "Cable Kickback",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Cable Kickback (or Cable Kickback, Cable)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "cablePullThrough",
+  "name": "Cable Pull Through",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Cable Pull Through (or Cable Pull Through, Cable)"
+  ],
+  "types": [
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 70,
+  "startingWeightKg": 30
+ },
+ {
+  "id": "cableTwist",
+  "name": "Cable Twist",
+  "equipment": [
+   "barbell",
+   "bodyweight",
+   "cable",
+   "leverageMachine",
+   "band"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Bodyweight",
+   "Cable",
+   "Leverage Machine",
+   "Band"
+  ],
+  "programTextForms": [
+   "Cable Twist, Barbell",
+   "Cable Twist, Bodyweight",
+   "Cable Twist (or Cable Twist, Cable)",
+   "Cable Twist, Leverage Machine",
+   "Cable Twist, Band"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Adductor Magnus",
+   "Erector Spinae",
+   "Gluteus Medius",
+   "Iliopsoas",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "calfPressOnLegPress",
+  "name": "Calf Press on Leg Press",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Calf Press on Leg Press (or Calf Press on Leg Press, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gastrocnemius"
+  ],
+  "synergistMuscles": [
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Calves"
+  ],
+  "startingWeightLb": 150,
+  "startingWeightKg": 67.5
+ },
+ {
+  "id": "calfPressOnSeatedLegPress",
+  "name": "Calf Press on Seated Leg Press",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Calf Press on Seated Leg Press (or Calf Press on Seated Leg Press, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gastrocnemius"
+  ],
+  "synergistMuscles": [
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Calves"
+  ],
+  "startingWeightLb": 120,
+  "startingWeightKg": 53.75
+ },
+ {
+  "id": "chestDip",
+  "name": "Chest Dip",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Chest Dip (or Chest Dip, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Teres Major",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "chestFly",
+  "name": "Chest Fly",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Chest Fly, Barbell",
+   "Chest Fly, Cable",
+   "Chest Fly (or Chest Fly, Dumbbell)",
+   "Chest Fly, Leverage Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "chestPress",
+  "name": "Chest Press",
+  "equipment": [
+   "leverageMachine",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Band"
+  ],
+  "programTextForms": [
+   "Chest Press, Leverage Machine",
+   "Chest Press, Band"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "chestSupportedRow",
+  "name": "Chest-Supported Row",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Chest-Supported Row (or Chest-Supported Row, Barbell)",
+   "Chest-Supported Row, Dumbbell"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Latissimus Dorsi",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 85,
+  "startingWeightKg": 37.5
+ },
+ {
+  "id": "chinUp",
+  "name": "Chin Up",
+  "equipment": [
+   "leverageMachine",
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Chin Up, Leverage Machine",
+   "Chin Up (or Chin Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Levator Scapulae",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "clean",
+  "name": "Clean",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Clean (or Clean, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "push"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Hamstrings",
+   "Quadriceps",
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Deltoid Anterior",
+   "Deltoid Lateral"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gastrocnemius",
+   "Soleus",
+   "Erector Spinae",
+   "Biceps Brachii",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs",
+   "Back",
+   "Shoulders"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "cleanandJerk",
+  "name": "Clean and Jerk",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Clean and Jerk (or Clean and Jerk, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "push"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Hamstrings",
+   "Quadriceps",
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Deltoid Anterior",
+   "Deltoid Lateral"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gastrocnemius",
+   "Soleus",
+   "Erector Spinae",
+   "Biceps Brachii",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs",
+   "Back",
+   "Shoulders"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "concentrationCurl",
+  "name": "Concentration Curl",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "band",
+   "cable"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Band",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Concentration Curl, Barbell",
+   "Concentration Curl (or Concentration Curl, Dumbbell)",
+   "Concentration Curl, Band",
+   "Concentration Curl, Cable"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Brachialis"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachioradialis"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "crossBodyCrunch",
+  "name": "Cross Body Crunch",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Cross Body Crunch (or Cross Body Crunch, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "crunch",
+  "name": "Crunch",
+  "equipment": [
+   "cable",
+   "bodyweight",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Bodyweight",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Crunch, Cable",
+   "Crunch (or Crunch, Bodyweight)",
+   "Crunch, Leverage Machine"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "cycling",
+  "name": "Cycling",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Cycling (or Cycling, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Hamstrings",
+   "Gluteus Maximus",
+   "Gastrocnemius",
+   "Soleus",
+   "Tibialis Anterior"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Adductor Longus",
+   "Adductor Brevis",
+   "Iliopsoas",
+   "Erector Spinae",
+   "Rectus Abdominis",
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs",
+   "Calves",
+   "Shins",
+   "Back",
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "deadlift",
+  "name": "Deadlift",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "leverageMachine",
+   "smith",
+   "band",
+   "kettlebell",
+   "bodyweight"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Leverage Machine",
+   "Smith Machine",
+   "Band",
+   "Kettlebell",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Deadlift (or Deadlift, Barbell)",
+   "Deadlift, Cable",
+   "Deadlift, Dumbbell",
+   "Deadlift, Leverage Machine",
+   "Deadlift, Smith Machine",
+   "Deadlift, Band",
+   "Deadlift, Kettlebell",
+   "Deadlift, Bodyweight"
+  ],
+  "types": [
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Hamstrings",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 185,
+  "startingWeightKg": 82.5
+ },
+ {
+  "id": "deadliftHighPull",
+  "name": "Deadlift High Pull",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Deadlift High Pull (or Deadlift High Pull, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Lateral",
+   "Gluteus Maximus",
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Anterior",
+   "Gastrocnemius",
+   "Infraspinatus",
+   "Soleus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 75,
+  "startingWeightKg": 32.5
+ },
+ {
+  "id": "declineBenchPress",
+  "name": "Decline Bench Press",
+  "equipment": [
+   "dumbbell",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Dumbbell",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Decline Bench Press, Dumbbell",
+   "Decline Bench Press, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 125,
+  "startingWeightKg": 55
+ },
+ {
+  "id": "declineCrunch",
+  "name": "Decline Crunch",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Decline Crunch (or Decline Crunch, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "deficitDeadlift",
+  "name": "Deficit Deadlift",
+  "equipment": [
+   "barbell",
+   "trapbar"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Trap Bar"
+  ],
+  "programTextForms": [
+   "Deficit Deadlift (or Deficit Deadlift, Barbell)",
+   "Deficit Deadlift, Trap Bar"
+  ],
+  "types": [
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Erector Spinae",
+   "Hamstrings",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 165,
+  "startingWeightKg": 75
+ },
+ {
+  "id": "ellipticalMachine",
+  "name": "Elliptical Machine",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Elliptical Machine (or Elliptical Machine, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Gluteus Maximus",
+   "Hamstrings",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head",
+   "Quadriceps",
+   "Serratus Anterior"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs",
+   "Back",
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "facePull",
+  "name": "Face Pull",
+  "equipment": [
+   "band"
+  ],
+  "defaultEquipment": "band",
+  "equipmentDisplayNames": [
+   "Band"
+  ],
+  "programTextForms": [
+   "Face Pull (or Face Pull, Band)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Lateral",
+   "Infraspinatus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "flatKneeRaise",
+  "name": "Flat Knee Raise",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Flat Knee Raise (or Flat Knee Raise, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Pectineous",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "flatLegRaise",
+  "name": "Flat Leg Raise",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Flat Leg Raise (or Flat Leg Raise, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Pectineous",
+   "Quadriceps",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "frontRaise",
+  "name": "Front Raise",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "bodyweight",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Bodyweight",
+   "Band"
+  ],
+  "programTextForms": [
+   "Front Raise, Barbell",
+   "Front Raise, Cable",
+   "Front Raise (or Front Raise, Dumbbell)",
+   "Front Raise, Bodyweight",
+   "Front Raise, Band"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "frontSquat",
+  "name": "Front Squat",
+  "equipment": [
+   "barbell",
+   "kettlebell",
+   "dumbbell",
+   "cable",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Kettlebell",
+   "Dumbbell",
+   "Cable",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Front Squat (or Front Squat, Barbell)",
+   "Front Squat, Kettlebell",
+   "Front Squat, Dumbbell",
+   "Front Squat, Cable",
+   "Front Squat, Smith Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "gobletSquat",
+  "name": "Goblet Squat",
+  "equipment": [
+   "kettlebell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Kettlebell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Goblet Squat, Kettlebell",
+   "Goblet Squat (or Goblet Squat, Dumbbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 35,
+  "startingWeightKg": 15
+ },
+ {
+  "id": "goodMorning",
+  "name": "Good Morning",
+  "equipment": [
+   "barbell",
+   "smith",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Smith Machine",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Good Morning (or Good Morning, Barbell)",
+   "Good Morning, Smith Machine",
+   "Good Morning, Leverage Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "gluteBridge",
+  "name": "Glute Bridge",
+  "equipment": [
+   "band",
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Band",
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Glute Bridge, Band",
+   "Glute Bridge, Barbell",
+   "Glute Bridge (or Glute Bridge, Dumbbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Quadriceps"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 35,
+  "startingWeightKg": 15
+ },
+ {
+  "id": "gluteBridgeMarch",
+  "name": "Glute Bridge March",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Glute Bridge March (or Glute Bridge March, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Quadriceps",
+   "Sartorius"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "gluteKickback",
+  "name": "Glute Kickback",
+  "equipment": [
+   "leverageMachine",
+   "bodyweight",
+   "cable",
+   "band"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Bodyweight",
+   "Cable",
+   "Band"
+  ],
+  "programTextForms": [
+   "Glute Kickback, Leverage Machine",
+   "Glute Kickback, Bodyweight",
+   "Glute Kickback (or Glute Kickback, Cable)",
+   "Glute Kickback, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus"
+  ],
+  "bodyParts": [
+   "Glute"
+  ],
+  "startingWeightLb": 35,
+  "startingWeightKg": 15
+ },
+ {
+  "id": "hackSquat",
+  "name": "Hack Squat",
+  "equipment": [
+   "barbell",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Hack Squat (or Hack Squat, Barbell)",
+   "Hack Squat, Smith Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 115,
+  "startingWeightKg": 50
+ },
+ {
+  "id": "hammerCurl",
+  "name": "Hammer Curl",
+  "equipment": [
+   "cable",
+   "dumbbell",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Dumbbell",
+   "Band"
+  ],
+  "programTextForms": [
+   "Hammer Curl, Cable",
+   "Hammer Curl (or Hammer Curl, Dumbbell)",
+   "Hammer Curl, Band"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Brachioradialis"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis"
+  ],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "handstandPushUp",
+  "name": "Handstand Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Handstand Push Up (or Handstand Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "hangClean",
+  "name": "Hang Clean",
+  "equipment": [
+   "kettlebell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Hang Clean, Kettlebell"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head"
+  ],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 85,
+  "startingWeightKg": 37.5
+ },
+ {
+  "id": "hangSnatch",
+  "name": "Hang Snatch",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Hang Snatch (or Hang Snatch, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Trapezius Upper Fibers",
+   "Quadriceps",
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Erector Spinae",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Latissimus Dorsi",
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Gastrocnemius",
+   "Soleus",
+   "Obliques",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Thighs",
+   "Back",
+   "Shoulders"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "hangingLegRaise",
+  "name": "Hanging Leg Raise",
+  "equipment": [
+   "bodyweight",
+   "cable"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Hanging Leg Raise (or Hanging Leg Raise, Bodyweight)",
+   "Hanging Leg Raise, Cable"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Pectineous",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "highKneeSkips",
+  "name": "High Knee Skips",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "High Knee Skips (or High Knee Skips, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Hamstrings",
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Gastrocnemius",
+   "Soleus",
+   "Tibialis Anterior",
+   "Rectus Abdominis",
+   "Obliques",
+   "Adductor Magnus",
+   "Adductor Brevis",
+   "Adductor Longus"
+  ],
+  "bodyParts": [
+   "Thighs",
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "highRow",
+  "name": "High Row",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "High Row (or High Row, Leverage Machine)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Erector Spinae",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "hipAbductor",
+  "name": "Hip Abductor",
+  "equipment": [
+   "leverageMachine",
+   "bodyweight",
+   "cable",
+   "band"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Bodyweight",
+   "Cable",
+   "Band"
+  ],
+  "programTextForms": [
+   "Hip Abductor (or Hip Abductor, Leverage Machine)",
+   "Hip Abductor, Bodyweight",
+   "Hip Abductor, Cable",
+   "Hip Abductor, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Gluteus Medius"
+  ],
+  "synergistMuscles": [
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 60,
+  "startingWeightKg": 26.25
+ },
+ {
+  "id": "hipAdductor",
+  "name": "Hip Adductor",
+  "equipment": [
+   "leverageMachine",
+   "cable",
+   "band",
+   "bodyweight"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Cable",
+   "Band",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Hip Adductor (or Hip Adductor, Leverage Machine)",
+   "Hip Adductor, Cable",
+   "Hip Adductor, Band",
+   "Hip Adductor, Bodyweight"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Adductor Magnus"
+  ],
+  "synergistMuscles": [
+   "Pectineous"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 60,
+  "startingWeightKg": 26.25
+ },
+ {
+  "id": "hipThrust",
+  "name": "Hip Thrust",
+  "equipment": [
+   "barbell",
+   "leverageMachine",
+   "band",
+   "bodyweight"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Leverage Machine",
+   "Band",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Hip Thrust (or Hip Thrust, Barbell)",
+   "Hip Thrust, Leverage Machine",
+   "Hip Thrust, Band",
+   "Hip Thrust, Bodyweight"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Quadriceps"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "inclineBenchPress",
+  "name": "Incline Bench Press",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "smith"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Incline Bench Press (or Incline Bench Press, Barbell)",
+   "Incline Bench Press, Cable",
+   "Incline Bench Press, Dumbbell",
+   "Incline Bench Press, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Clavicular Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Sternal Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 115,
+  "startingWeightKg": 50
+ },
+ {
+  "id": "inclineBenchPressWideGrip",
+  "name": "Incline Bench Press Wide Grip",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Incline Bench Press Wide Grip (or Incline Bench Press Wide Grip, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Clavicular Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Sternal Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 110,
+  "startingWeightKg": 50
+ },
+ {
+  "id": "inclineChestFly",
+  "name": "Incline Chest Fly",
+  "equipment": [
+   "cable",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Incline Chest Fly, Cable",
+   "Incline Chest Fly (or Incline Chest Fly, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Clavicular Head"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Deltoid Anterior",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "inclineChestPress",
+  "name": "Incline Chest Press",
+  "equipment": [
+   "leverageMachine",
+   "band",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Band",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Incline Chest Press, Leverage Machine",
+   "Incline Chest Press, Band",
+   "Incline Chest Press (or Incline Chest Press, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Clavicular Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Sternal Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "inclineCurl",
+  "name": "Incline Curl",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Incline Curl (or Incline Curl, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Biceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "inclineRow",
+  "name": "Incline Row",
+  "equipment": [
+   "barbell",
+   "bodyweight",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Bodyweight",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Incline Row, Barbell",
+   "Incline Row, Bodyweight",
+   "Incline Row (or Incline Row, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "invertedRow",
+  "name": "Inverted Row",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Inverted Row (or Inverted Row, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "isoLateralChestPress",
+  "name": "Iso-Lateral Chest Press",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Iso-Lateral Chest Press (or Iso-Lateral Chest Press, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "isoLateralRow",
+  "name": "Iso-Lateral Row",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Iso-Lateral Row (or Iso-Lateral Row, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "jackknifeSitUp",
+  "name": "Jackknife Sit Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Jackknife Sit Up (or Jackknife Sit Up, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Obliques",
+   "Quadriceps",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "jumpRope",
+  "name": "Jump Rope",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Jump Rope (or Jump Rope, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Soleus",
+   "Gastrocnemius",
+   "Quadriceps",
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Gluteus Maximus",
+   "Rectus Abdominis",
+   "Obliques",
+   "Tibialis Anterior"
+  ],
+  "bodyParts": [
+   "Thighs",
+   "Calves"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "jumpSquat",
+  "name": "Jump Squat",
+  "equipment": [
+   "barbell",
+   "bodyweight"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Jump Squat (or Jump Squat, Barbell)",
+   "Jump Squat, Bodyweight"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gastrocnemius",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "jumpingJack",
+  "name": "Jumping Jack",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": null,
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Jumping Jack, Bodyweight"
+  ],
+  "types": [
+   "upper",
+   "lower"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Quadriceps",
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Adductor Magnus",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Gastrocnemius",
+   "Soleus",
+   "Hamstrings",
+   "Rectus Abdominis",
+   "Obliques",
+   "Trapezius Upper Fibers",
+   "Serratus Anterior"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "kettlebellSwing",
+  "name": "Kettlebell Swing",
+  "equipment": [
+   "dumbbell",
+   "kettlebell"
+  ],
+  "defaultEquipment": "kettlebell",
+  "equipmentDisplayNames": [
+   "Dumbbell",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Kettlebell Swing, Dumbbell",
+   "Kettlebell Swing (or Kettlebell Swing, Kettlebell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "core"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Hamstrings",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Shoulders"
+  ],
+  "startingWeightLb": 35,
+  "startingWeightKg": 16
+ },
+ {
+  "id": "kettlebellTurkishGetUp",
+  "name": "Kettlebell Turkish Get Up",
+  "equipment": [
+   "kettlebell"
+  ],
+  "defaultEquipment": "kettlebell",
+  "equipmentDisplayNames": [
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Kettlebell Turkish Get Up (or Kettlebell Turkish Get Up, Kettlebell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "core"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Quadriceps",
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Obliques",
+   "Rectus Abdominis",
+   "Latissimus Dorsi",
+   "Hamstrings",
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Adductor Magnus",
+   "Triceps Brachii",
+   "Erector Spinae",
+   "Serratus Anterior"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Shoulders"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 8
+ },
+ {
+  "id": "kippingPullUp",
+  "name": "Kipping Pull Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Kipping Pull Up (or Kipping Pull Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Brachialis",
+   "Biceps Brachii",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Deltoid Posterior",
+   "Brachioradialis",
+   "Pectoralis Major Sternal Head",
+   "Rectus Abdominis",
+   "Obliques",
+   "Iliopsoas",
+   "Tensor Fasciae Latae",
+   "Adductor Longus",
+   "Adductor Brevis",
+   "Erector Spinae"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "kneeRaise",
+  "name": "Knee Raise",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Knee Raise (or Knee Raise, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Pectineous",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "kneelingPulldown",
+  "name": "Kneeling Pulldown",
+  "equipment": [
+   "band"
+  ],
+  "defaultEquipment": "band",
+  "equipmentDisplayNames": [
+   "Band"
+  ],
+  "programTextForms": [
+   "Kneeling Pulldown (or Kneeling Pulldown, Band)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Levator Scapulae",
+   "Pectoralis Major Sternal Head",
+   "Serratus Anterior",
+   "Teres Major",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "kneestoElbows",
+  "name": "Knees to Elbows",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Knees to Elbows (or Knees to Elbows, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Iliopsoas",
+   "Obliques",
+   "Pectineous",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "latPulldown",
+  "name": "Lat Pulldown",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Lat Pulldown (or Lat Pulldown, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Levator Scapulae",
+   "Teres Major",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 70,
+  "startingWeightKg": 30
+ },
+ {
+  "id": "lateralBoxJump",
+  "name": "Lateral Box Jump",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": null,
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Lateral Box Jump, Bodyweight"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Quadriceps",
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Adductor Magnus",
+   "Gluteus Medius",
+   "Tensor Fasciae Latae",
+   "Rectus Abdominis",
+   "Obliques",
+   "Deltoid Anterior",
+   "Deltoid Posterior",
+   "Deltoid Lateral"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "lateralRaise",
+  "name": "Lateral Raise",
+  "equipment": [
+   "cable",
+   "dumbbell",
+   "leverageMachine",
+   "band",
+   "kettlebell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Dumbbell",
+   "Leverage Machine",
+   "Band",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Lateral Raise, Cable",
+   "Lateral Raise (or Lateral Raise, Dumbbell)",
+   "Lateral Raise, Leverage Machine",
+   "Lateral Raise, Band",
+   "Lateral Raise, Kettlebell"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Lateral"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "legsUpBenchPress",
+  "name": "Legs Up Bench Press",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Legs Up Bench Press (or Legs Up Bench Press, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 135,
+  "startingWeightKg": 60
+ },
+ {
+  "id": "legCurl",
+  "name": "Leg Curl",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Leg Curl (or Leg Curl, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Gastrocnemius",
+   "Sartorius"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 60,
+  "startingWeightKg": 26.25
+ },
+ {
+  "id": "legExtension",
+  "name": "Leg Extension",
+  "equipment": [
+   "leverageMachine",
+   "band"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Band"
+  ],
+  "programTextForms": [
+   "Leg Extension (or Leg Extension, Leverage Machine)",
+   "Leg Extension, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 60,
+  "startingWeightKg": 26.25
+ },
+ {
+  "id": "legPress",
+  "name": "Leg Press",
+  "equipment": [
+   "smith",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Smith Machine",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Leg Press, Smith Machine",
+   "Leg Press (or Leg Press, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 250,
+  "startingWeightKg": 112.5
+ },
+ {
+  "id": "lunge",
+  "name": "Lunge",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "bodyweight",
+   "cable"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Bodyweight",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Lunge (or Lunge, Barbell)",
+   "Lunge, Dumbbell",
+   "Lunge, Bodyweight",
+   "Lunge, Cable"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 75,
+  "startingWeightKg": 32.5
+ },
+ {
+  "id": "lyingBicepCurl",
+  "name": "Lying Bicep Curl",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "band",
+   "leverageMachine",
+   "cable",
+   "ezbar"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Band",
+   "Leverage Machine",
+   "Cable",
+   "EZ Bar"
+  ],
+  "programTextForms": [
+   "Lying Bicep Curl, Barbell",
+   "Lying Bicep Curl (or Lying Bicep Curl, Dumbbell)",
+   "Lying Bicep Curl, Band",
+   "Lying Bicep Curl, Leverage Machine",
+   "Lying Bicep Curl, Cable",
+   "Lying Bicep Curl, EZ Bar"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Biceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "lyingLegCurl",
+  "name": "Lying Leg Curl",
+  "equipment": [
+   "leverageMachine",
+   "band"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Band"
+  ],
+  "programTextForms": [
+   "Lying Leg Curl (or Lying Leg Curl, Leverage Machine)",
+   "Lying Leg Curl, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Gastrocnemius",
+   "Sartorius"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 60,
+  "startingWeightKg": 26.25
+ },
+ {
+  "id": "mountainClimber",
+  "name": "Mountain Climber",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Mountain Climber (or Mountain Climber, Bodyweight)"
+  ],
+  "types": [
+   "core",
+   "lower"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Pectineous",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "muscleUp",
+  "name": "Muscle Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Muscle Up (or Muscle Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Latissimus Dorsi",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "obliqueCrunch",
+  "name": "Oblique Crunch",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Oblique Crunch (or Oblique Crunch, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "overheadPress",
+  "name": "Overhead Press",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "ezbar"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "EZ Bar"
+  ],
+  "programTextForms": [
+   "Overhead Press (or Overhead Press, Barbell)",
+   "Overhead Press, Dumbbell",
+   "Overhead Press, EZ Bar"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 75,
+  "startingWeightKg": 32.5
+ },
+ {
+  "id": "overheadSquat",
+  "name": "Overhead Squat",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Overhead Squat (or Overhead Squat, Barbell)",
+   "Overhead Squat, Dumbbell"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 55,
+  "startingWeightKg": 25
+ },
+ {
+  "id": "pecDeck",
+  "name": "Pec Deck",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Pec Deck (or Pec Deck, Leverage Machine)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 50,
+  "startingWeightKg": 22.5
+ },
+ {
+  "id": "pendlayRow",
+  "name": "Pendlay Row",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Pendlay Row (or Pendlay Row, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Latissimus Dorsi",
+   "Teres Major",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "pistolSquat",
+  "name": "Pistol Squat",
+  "equipment": [
+   "kettlebell",
+   "leverageMachine",
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Kettlebell",
+   "Leverage Machine",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Pistol Squat, Kettlebell",
+   "Pistol Squat, Leverage Machine",
+   "Pistol Squat (or Pistol Squat, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "plank",
+  "name": "Plank",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Plank (or Plank, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "powerClean",
+  "name": "Power Clean",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Power Clean (or Power Clean, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Gluteus Maximus",
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Gastrocnemius",
+   "Soleus",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Trapezius Upper Fibers",
+   "Latissimus Dorsi",
+   "Erector Spinae",
+   "Biceps Brachii",
+   "Wrist Flexors",
+   "Rectus Abdominis",
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "powerSnatch",
+  "name": "Power Snatch",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Power Snatch (or Power Snatch, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Gluteus Maximus",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Gastrocnemius",
+   "Soleus",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Trapezius Upper Fibers",
+   "Latissimus Dorsi",
+   "Erector Spinae",
+   "Biceps Brachii",
+   "Wrist Flexors",
+   "Rectus Abdominis",
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "preacherCurl",
+  "name": "Preacher Curl",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "ezbar",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "EZ Bar",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Preacher Curl, Barbell",
+   "Preacher Curl (or Preacher Curl, Dumbbell)",
+   "Preacher Curl, EZ Bar",
+   "Preacher Curl, Leverage Machine"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Brachialis"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachioradialis"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "pressUnder",
+  "name": "Press Under",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Press Under (or Press Under, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Gluteus Maximus",
+   "Hamstrings",
+   "Erector Spinae",
+   "Rectus Abdominis",
+   "Obliques",
+   "Triceps Brachii",
+   "Biceps Brachii"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "pullUp",
+  "name": "Pull Up",
+  "equipment": [
+   "leverageMachine",
+   "bodyweight",
+   "band"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Leverage Machine",
+   "Bodyweight",
+   "Band"
+  ],
+  "programTextForms": [
+   "Pull Up, Leverage Machine",
+   "Pull Up (or Pull Up, Bodyweight)",
+   "Pull Up, Band"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Levator Scapulae",
+   "Teres Major",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "pullover",
+  "name": "Pullover",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Pullover, Barbell",
+   "Pullover (or Pullover, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Deltoid Posterior",
+   "Levator Scapulae",
+   "Pectoralis Major Sternal Head",
+   "Serratus Anterior",
+   "Teres Major",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "pushPress",
+  "name": "Push Press",
+  "equipment": [
+   "bodyweight",
+   "kettlebell"
+  ],
+  "defaultEquipment": "kettlebell",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Push Press, Bodyweight",
+   "Push Press (or Push Press, Kettlebell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 35,
+  "startingWeightKg": 16
+ },
+ {
+  "id": "pushUp",
+  "name": "Push Up",
+  "equipment": [
+   "bodyweight",
+   "band"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Band"
+  ],
+  "programTextForms": [
+   "Push Up (or Push Up, Bodyweight)",
+   "Push Up, Band"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "reverseCrunch",
+  "name": "Reverse Crunch",
+  "equipment": [
+   "bodyweight",
+   "cable"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Reverse Crunch (or Reverse Crunch, Bodyweight)",
+   "Reverse Crunch, Cable"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Obliques"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "reverseCurl",
+  "name": "Reverse Curl",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Band"
+  ],
+  "programTextForms": [
+   "Reverse Curl, Barbell",
+   "Reverse Curl, Cable",
+   "Reverse Curl (or Reverse Curl, Dumbbell)",
+   "Reverse Curl, Band"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Brachioradialis"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis"
+  ],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "reverseFly",
+  "name": "Reverse Fly",
+  "equipment": [
+   "dumbbell",
+   "leverageMachine",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell",
+   "Leverage Machine",
+   "Band"
+  ],
+  "programTextForms": [
+   "Reverse Fly (or Reverse Fly, Dumbbell)",
+   "Reverse Fly, Leverage Machine",
+   "Reverse Fly, Band"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Infraspinatus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "reverseGripConcentrationCurl",
+  "name": "Reverse Grip Concentration Curl",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Reverse Grip Concentration Curl (or Reverse Grip Concentration Curl, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Brachialis",
+   "Brachioradialis"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "reversePlank",
+  "name": "Reverse Plank",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Reverse Plank (or Reverse Plank, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Rectus Abdominis",
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Quadriceps",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Triceps Brachii",
+   "Latissimus Dorsi",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "reverseLatPulldown",
+  "name": "Reverse Lat Pulldown",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Reverse Lat Pulldown (or Reverse Lat Pulldown, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Levator Scapulae",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 70,
+  "startingWeightKg": 30
+ },
+ {
+  "id": "reverseLunge",
+  "name": "Reverse Lunge",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "bodyweight",
+   "cable"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Bodyweight",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Reverse Lunge, Barbell",
+   "Reverse Lunge (or Reverse Lunge, Dumbbell)",
+   "Reverse Lunge, Bodyweight",
+   "Reverse Lunge, Cable"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Soleus",
+   "Gluteus Maximus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "reverseWristCurl",
+  "name": "Reverse Wrist Curl",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Reverse Wrist Curl (or Reverse Wrist Curl, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Wrist Extensors"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "romanianDeadlift",
+  "name": "Romanian Deadlift",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Romanian Deadlift, Barbell",
+   "Romanian Deadlift (or Romanian Deadlift, Dumbbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Erector Spinae",
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 40,
+  "startingWeightKg": 17.5
+ },
+ {
+  "id": "reverseHyperextension",
+  "name": "Reverse Hyperextension",
+  "equipment": [
+   "band",
+   "bodyweight",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "band",
+  "equipmentDisplayNames": [
+   "Band",
+   "Bodyweight",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Reverse Hyperextension (or Reverse Hyperextension, Band)",
+   "Reverse Hyperextension, Bodyweight",
+   "Reverse Hyperextension, Leverage Machine"
+  ],
+  "types": [
+   "core",
+   "lower"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "rowing",
+  "name": "Rowing",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Rowing, Cable"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Quadriceps",
+   "Latissimus Dorsi",
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Hamstrings",
+   "Gluteus Maximus",
+   "Biceps Brachii",
+   "Deltoid Anterior",
+   "Deltoid Lateral",
+   "Deltoid Posterior",
+   "Wrist Flexors",
+   "Rectus Abdominis",
+   "Obliques",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "russianTwist",
+  "name": "Russian Twist",
+  "equipment": [
+   "bodyweight",
+   "dumbbell",
+   "cable"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Dumbbell",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Russian Twist (or Russian Twist, Bodyweight)",
+   "Russian Twist, Dumbbell",
+   "Russian Twist, Cable"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Erector Spinae",
+   "Iliopsoas"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "safetySquatBarSquat",
+  "name": "Safety Squat Bar Squat",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Safety Squat Bar Squat (or Safety Squat Bar Squat, Barbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 145,
+  "startingWeightKg": 65
+ },
+ {
+  "id": "seatedCalfRaise",
+  "name": "Seated Calf Raise",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Seated Calf Raise (or Seated Calf Raise, Barbell)",
+   "Seated Calf Raise, Dumbbell",
+   "Seated Calf Raise, Leverage Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Soleus"
+  ],
+  "synergistMuscles": [
+   "Gastrocnemius"
+  ],
+  "bodyParts": [
+   "Calves"
+  ],
+  "startingWeightLb": 90,
+  "startingWeightKg": 40
+ },
+ {
+  "id": "seatedFrontRaise",
+  "name": "Seated Front Raise",
+  "equipment": [
+   "barbell",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Seated Front Raise, Barbell",
+   "Seated Front Raise (or Seated Front Raise, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "seatedLegCurl",
+  "name": "Seated Leg Curl",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Seated Leg Curl (or Seated Leg Curl, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Gastrocnemius",
+   "Sartorius"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 60,
+  "startingWeightKg": 26.25
+ },
+ {
+  "id": "seatedLegPress",
+  "name": "Seated Leg Press",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Seated Leg Press (or Seated Leg Press, Leverage Machine)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs"
+  ],
+  "startingWeightLb": 200,
+  "startingWeightKg": 90
+ },
+ {
+  "id": "seatedOverheadPress",
+  "name": "Seated Overhead Press",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Seated Overhead Press (or Seated Overhead Press, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 75,
+  "startingWeightKg": 32.5
+ },
+ {
+  "id": "seatedPalmsUpWristCurl",
+  "name": "Seated Palms Up Wrist Curl",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Seated Palms Up Wrist Curl (or Seated Palms Up Wrist Curl, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Wrist Flexors"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 15,
+  "startingWeightKg": 5
+ },
+ {
+  "id": "seatedRow",
+  "name": "Seated Row",
+  "equipment": [
+   "cable",
+   "band",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Band",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Seated Row (or Seated Row, Cable)",
+   "Seated Row, Band",
+   "Seated Row, Leverage Machine"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Erector Spinae",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 70,
+  "startingWeightKg": 30
+ },
+ {
+  "id": "seatedWideGripRow",
+  "name": "Seated Wide Grip Row",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Seated Wide Grip Row (or Seated Wide Grip Row, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Erector Spinae",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "shoulderPress",
+  "name": "Shoulder Press",
+  "equipment": [
+   "cable",
+   "dumbbell",
+   "leverageMachine",
+   "band",
+   "smith"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Dumbbell",
+   "Leverage Machine",
+   "Band",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Shoulder Press, Cable",
+   "Shoulder Press (or Shoulder Press, Dumbbell)",
+   "Shoulder Press, Leverage Machine",
+   "Shoulder Press, Band",
+   "Shoulder Press, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "shoulderPressParallelGrip",
+  "name": "Shoulder Press Parallel Grip",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Shoulder Press Parallel Grip (or Shoulder Press Parallel Grip, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "shrug",
+  "name": "Shrug",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "leverageMachine",
+   "band",
+   "smith"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Leverage Machine",
+   "Band",
+   "Smith Machine"
+  ],
+  "programTextForms": [
+   "Shrug, Barbell",
+   "Shrug, Cable",
+   "Shrug (or Shrug, Dumbbell)",
+   "Shrug, Leverage Machine",
+   "Shrug, Band",
+   "Shrug, Smith Machine"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Trapezius Upper Fibers"
+  ],
+  "synergistMuscles": [
+   "Levator Scapulae",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 45,
+  "startingWeightKg": 20
+ },
+ {
+  "id": "sideBend",
+  "name": "Side Bend",
+  "equipment": [
+   "cable",
+   "dumbbell",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Cable",
+   "Dumbbell",
+   "Band"
+  ],
+  "programTextForms": [
+   "Side Bend, Cable",
+   "Side Bend (or Side Bend, Dumbbell)",
+   "Side Bend, Band"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Erector Spinae",
+   "Iliopsoas"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "sideCrunch",
+  "name": "Side Crunch",
+  "equipment": [
+   "bodyweight",
+   "band",
+   "cable"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Band",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Side Crunch (or Side Crunch, Bodyweight)",
+   "Side Crunch, Band",
+   "Side Crunch, Cable"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "sideHipAbductor",
+  "name": "Side Hip Abductor",
+  "equipment": [
+   "bodyweight",
+   "barbell",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Barbell",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Side Hip Abductor (or Side Hip Abductor, Bodyweight)",
+   "Side Hip Abductor, Barbell",
+   "Side Hip Abductor, Leverage Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Medius",
+   "Tensor Fasciae Latae"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "sideLyingClam",
+  "name": "Side Lying Clam",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Side Lying Clam (or Side Lying Clam, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Medius"
+  ],
+  "synergistMuscles": [
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "sidePlank",
+  "name": "Side Plank",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Side Plank (or Side Plank, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "singleLegBridge",
+  "name": "Single Leg Bridge",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Single Leg Bridge (or Single Leg Bridge, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "singleLegCalfRaise",
+  "name": "Single Leg Calf Raise",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "leverageMachine",
+   "bodyweight",
+   "cable"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Leverage Machine",
+   "Bodyweight",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Single Leg Calf Raise (or Single Leg Calf Raise, Barbell)",
+   "Single Leg Calf Raise, Dumbbell",
+   "Single Leg Calf Raise, Leverage Machine",
+   "Single Leg Calf Raise, Bodyweight",
+   "Single Leg Calf Raise, Cable"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gastrocnemius"
+  ],
+  "synergistMuscles": [
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Calves"
+  ],
+  "startingWeightLb": 85,
+  "startingWeightKg": 37.5
+ },
+ {
+  "id": "singleLegDeadlift",
+  "name": "Single Leg Deadlift",
+  "equipment": [
+   "dumbbell",
+   "bodyweight"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell",
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Single Leg Deadlift (or Single Leg Deadlift, Dumbbell)",
+   "Single Leg Deadlift, Bodyweight"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "singleLegGluteBridgeBench",
+  "name": "Single Leg Glute Bridge On Bench",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Single Leg Glute Bridge On Bench (or Single Leg Glute Bridge On Bench, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "singleLegGluteBridgeStraight",
+  "name": "Single Leg Glute Bridge Straight Leg",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Single Leg Glute Bridge Straight Leg (or Single Leg Glute Bridge Straight Leg, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "singleLegGluteBridgeBentKnee",
+  "name": "Single Leg Glute Bridge Bent Knee",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Single Leg Glute Bridge Bent Knee (or Single Leg Glute Bridge Bent Knee, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "singleLegHipThrust",
+  "name": "Single Leg Hip Thrust",
+  "equipment": [
+   "barbell",
+   "bodyweight",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Bodyweight",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Single Leg Hip Thrust, Barbell",
+   "Single Leg Hip Thrust (or Single Leg Hip Thrust, Bodyweight)",
+   "Single Leg Hip Thrust, Leverage Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Quadriceps"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "sissySquat",
+  "name": "Sissy Squat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Sissy Squat (or Sissy Squat, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "sitUp",
+  "name": "Sit Up",
+  "equipment": [
+   "bodyweight",
+   "kettlebell"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Sit Up (or Sit Up, Bodyweight)",
+   "Sit Up, Kettlebell"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Obliques",
+   "Quadriceps",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "skullcrusher",
+  "name": "Skullcrusher",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "ezbar"
+  ],
+  "defaultEquipment": "ezbar",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "EZ Bar"
+  ],
+  "programTextForms": [
+   "Skullcrusher, Barbell",
+   "Skullcrusher, Cable",
+   "Skullcrusher, Dumbbell",
+   "Skullcrusher (or Skullcrusher, EZ Bar)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 45,
+  "startingWeightKg": 20
+ },
+ {
+  "id": "slingShotBenchPress",
+  "name": "Sling Shot Bench Press",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Sling Shot Bench Press (or Sling Shot Bench Press, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 140,
+  "startingWeightKg": 62.5
+ },
+ {
+  "id": "snatch",
+  "name": "Snatch",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Snatch (or Snatch, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Erector Spinae",
+   "Gluteus Maximus",
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Deltoid Lateral",
+   "Gastrocnemius",
+   "Serratus Anterior",
+   "Soleus",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Shoulders",
+   "Thighs"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "snatchPull",
+  "name": "Snatch Pull",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Snatch Pull (or Snatch Pull, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Erector Spinae",
+   "Gluteus Maximus",
+   "Hamstrings",
+   "Quadriceps",
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Trapezius Upper Fibers"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Deltoid Anterior",
+   "Deltoid Posterior",
+   "Deltoid Lateral",
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Triceps Brachii",
+   "Wrist Flexors",
+   "Wrist Extensors"
+  ],
+  "bodyParts": [
+   "Back",
+   "Hips",
+   "Thighs"
+  ],
+  "startingWeightLb": 85,
+  "startingWeightKg": 37.5
+ },
+ {
+  "id": "splitSquat",
+  "name": "Split Squat",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Split Squat (or Split Squat, Dumbbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Thighs"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "splitJerk",
+  "name": "Split Jerk",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Split Jerk (or Split Jerk, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Deltoid Posterior",
+   "Deltoid Lateral",
+   "Triceps Brachii",
+   "Quadriceps",
+   "Gluteus Maximus",
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Pectoralis Major Sternal Head",
+   "Pectoralis Major Clavicular Head",
+   "Latissimus Dorsi",
+   "Hamstrings",
+   "Obliques",
+   "Rectus Abdominis",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Trapezius Upper Fibers",
+   "Adductor Magnus",
+   "Tensor Fasciae Latae",
+   "Wrist Extensors",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Hips",
+   "Shoulders",
+   "Thighs"
+  ],
+  "startingWeightLb": 95,
+  "startingWeightKg": 42.5
+ },
+ {
+  "id": "squat",
+  "name": "Squat",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "bodyweight",
+   "smith",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Bodyweight",
+   "Smith Machine",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Squat (or Squat, Barbell)",
+   "Squat, Dumbbell",
+   "Squat, Bodyweight",
+   "Squat, Smith Machine",
+   "Squat, Leverage Machine"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 135,
+  "startingWeightKg": 60
+ },
+ {
+  "id": "squatRow",
+  "name": "Squat Row",
+  "equipment": [
+   "band"
+  ],
+  "defaultEquipment": "band",
+  "equipmentDisplayNames": [
+   "Band"
+  ],
+  "programTextForms": [
+   "Squat Row (or Squat Row, Band)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus",
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Adductor Magnus",
+   "Deltoid Posterior",
+   "Pectoralis Major Sternal Head",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "standingCalfRaise",
+  "name": "Standing Calf Raise",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "leverageMachine",
+   "bodyweight",
+   "cable"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Leverage Machine",
+   "Bodyweight",
+   "Cable"
+  ],
+  "programTextForms": [
+   "Standing Calf Raise, Barbell",
+   "Standing Calf Raise (or Standing Calf Raise, Dumbbell)",
+   "Standing Calf Raise, Leverage Machine",
+   "Standing Calf Raise, Bodyweight",
+   "Standing Calf Raise, Cable"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gastrocnemius"
+  ],
+  "synergistMuscles": [
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Calves"
+  ],
+  "startingWeightLb": 35,
+  "startingWeightKg": 15
+ },
+ {
+  "id": "standingRow",
+  "name": "Standing Row",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Standing Row (or Standing Row, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 70,
+  "startingWeightKg": 30
+ },
+ {
+  "id": "standingRowCloseGrip",
+  "name": "Standing Row Close Grip",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Standing Row Close Grip (or Standing Row Close Grip, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Upper Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "standingRowRearDeltWithRope",
+  "name": "Standing Row Rear Delt With Rope",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Standing Row Rear Delt With Rope (or Standing Row Rear Delt With Rope, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Lateral",
+   "Infraspinatus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "standingRowRearHorizontalDeltWithRope",
+  "name": "Standing Row Rear Delt, Horizontal, With Rope",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Standing Row Rear Delt, Horizontal, With Rope (or Standing Row Rear Delt, Horizontal, With Rope, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 30,
+  "startingWeightKg": 12.5
+ },
+ {
+  "id": "standingRowVBar",
+  "name": "Standing Row V-Bar",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Standing Row V-Bar (or Standing Row V-Bar, Cable)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 70,
+  "startingWeightKg": 30
+ },
+ {
+  "id": "stepUp",
+  "name": "Step up",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "bodyweight",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Bodyweight",
+   "Band"
+  ],
+  "programTextForms": [
+   "Step up, Barbell",
+   "Step up (or Step up, Dumbbell)",
+   "Step up, Bodyweight",
+   "Step up, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "stiffLegDeadlift",
+  "name": "Stiff Leg Deadlift",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "band"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Band"
+  ],
+  "programTextForms": [
+   "Stiff Leg Deadlift (or Stiff Leg Deadlift, Barbell)",
+   "Stiff Leg Deadlift, Dumbbell",
+   "Stiff Leg Deadlift, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 115,
+  "startingWeightKg": 50
+ },
+ {
+  "id": "straightLegDeadlift",
+  "name": "Straight Leg Deadlift",
+  "equipment": [
+   "barbell",
+   "dumbbell",
+   "band",
+   "kettlebell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Dumbbell",
+   "Band",
+   "Kettlebell"
+  ],
+  "programTextForms": [
+   "Straight Leg Deadlift (or Straight Leg Deadlift, Barbell)",
+   "Straight Leg Deadlift, Dumbbell",
+   "Straight Leg Deadlift, Band",
+   "Straight Leg Deadlift, Kettlebell"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Erector Spinae",
+   "Gluteus Maximus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 110,
+  "startingWeightKg": 50
+ },
+ {
+  "id": "sumoDeadlift",
+  "name": "Sumo Deadlift",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Sumo Deadlift (or Sumo Deadlift, Barbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 175,
+  "startingWeightKg": 77.5
+ },
+ {
+  "id": "sumoDeadliftHighPull",
+  "name": "Sumo Deadlift High Pull",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Sumo Deadlift High Pull (or Sumo Deadlift High Pull, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Lateral",
+   "Gluteus Maximus",
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Anterior",
+   "Gastrocnemius",
+   "Infraspinatus",
+   "Soleus",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 85,
+  "startingWeightKg": 37.5
+ },
+ {
+  "id": "superman",
+  "name": "Superman",
+  "equipment": [
+   "bodyweight",
+   "dumbbell"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Superman (or Superman, Bodyweight)",
+   "Superman, Dumbbell"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Erector Spinae"
+  ],
+  "synergistMuscles": [
+   "Gluteus Maximus",
+   "Hamstrings"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "tBarRow",
+  "name": "T Bar Row",
+  "equipment": [
+   "leverageMachine"
+  ],
+  "defaultEquipment": "leverageMachine",
+  "equipmentDisplayNames": [
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "T Bar Row (or T Bar Row, Leverage Machine)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Pectoralis Major Sternal Head",
+   "Teres Major",
+   "Teres Minor"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 90,
+  "startingWeightKg": 40
+ },
+ {
+  "id": "thruster",
+  "name": "Thruster",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Thruster (or Thruster, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "lower",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Gluteus Maximus",
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Soleus",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders",
+   "Thighs"
+  ],
+  "startingWeightLb": 65,
+  "startingWeightKg": 27.5
+ },
+ {
+  "id": "toesToBar",
+  "name": "Toes To Bar",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Toes To Bar (or Toes To Bar, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Obliques",
+   "Quadriceps",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "torsoRotation",
+  "name": "Torso Rotation",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Torso Rotation, Cable"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Erector Spinae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "trapBarDeadlift",
+  "name": "Trap Bar Deadlift",
+  "equipment": [
+   "trapbar"
+  ],
+  "defaultEquipment": "trapbar",
+  "equipmentDisplayNames": [
+   "Trap Bar"
+  ],
+  "programTextForms": [
+   "Trap Bar Deadlift (or Trap Bar Deadlift, Trap Bar)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 185,
+  "startingWeightKg": 82.5
+ },
+ {
+  "id": "tricepsDip",
+  "name": "Triceps Dip",
+  "equipment": [
+   "bodyweight",
+   "leverageMachine"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Leverage Machine"
+  ],
+  "programTextForms": [
+   "Triceps Dip (or Triceps Dip, Bodyweight)",
+   "Triceps Dip, Leverage Machine"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "tricepsExtension",
+  "name": "Triceps Extension",
+  "equipment": [
+   "barbell",
+   "cable",
+   "band",
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Band",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Triceps Extension, Barbell",
+   "Triceps Extension, Cable",
+   "Triceps Extension, Band",
+   "Triceps Extension (or Triceps Extension, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "tricepsPushdown",
+  "name": "Triceps Pushdown",
+  "equipment": [
+   "cable"
+  ],
+  "defaultEquipment": "cable",
+  "equipmentDisplayNames": [
+   "Cable"
+  ],
+  "programTextForms": [
+   "Triceps Pushdown (or Triceps Pushdown, Cable)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 40,
+  "startingWeightKg": 17.5
+ },
+ {
+  "id": "uprightRow",
+  "name": "Upright Row",
+  "equipment": [
+   "barbell",
+   "cable",
+   "dumbbell",
+   "band"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Barbell",
+   "Cable",
+   "Dumbbell",
+   "Band"
+  ],
+  "programTextForms": [
+   "Upright Row, Barbell",
+   "Upright Row, Cable",
+   "Upright Row (or Upright Row, Dumbbell)",
+   "Upright Row, Band"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Deltoid Lateral"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Anterior",
+   "Infraspinatus",
+   "Serratus Anterior",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 7.5
+ },
+ {
+  "id": "vUp",
+  "name": "V Up",
+  "equipment": [
+   "bodyweight",
+   "band",
+   "dumbbell"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Band",
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "V Up (or V Up, Bodyweight)",
+   "V Up, Band",
+   "V Up, Dumbbell"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Iliopsoas",
+   "Obliques",
+   "Pectineous",
+   "Quadriceps",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "widePullUp",
+  "name": "Wide Pull Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Wide Pull Up (or Wide Pull Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Levator Scapulae",
+   "Serratus Anterior",
+   "Teres Major",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "wristCurl",
+  "name": "Wrist Curl",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Wrist Curl (or Wrist Curl, Barbell)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Wrist Flexors"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 25,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "wristRoller",
+  "name": "Wrist Roller",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Wrist Roller (or Wrist Roller, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Wrist Extensors",
+   "Wrist Flexors"
+  ],
+  "synergistMuscles": [],
+  "bodyParts": [
+   "Forearms"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "zercherSquat",
+  "name": "Zercher Squat",
+  "equipment": [
+   "barbell"
+  ],
+  "defaultEquipment": "barbell",
+  "equipmentDisplayNames": [
+   "Barbell"
+  ],
+  "programTextForms": [
+   "Zercher Squat (or Zercher Squat, Barbell)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Hips"
+  ],
+  "startingWeightLb": 105,
+  "startingWeightKg": 47.5
+ },
+ {
+  "id": "wallPushup",
+  "name": "Wall Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Wall Push Up (or Wall Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "inclinePushup",
+  "name": "Incline Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Incline Push Up (or Incline Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "kneePushup",
+  "name": "Knee Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Knee Push Up (or Knee Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "diamondPushup",
+  "name": "Diamond Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Diamond Push Up (or Diamond Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Triceps Brachii"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Upper Arms"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "pseudoPlanchePushup",
+  "name": "Pseudo Planche Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Pseudo Planche Push Up (or Pseudo Planche Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "pikePushup",
+  "name": "Pike Push Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Pike Push Up (or Pike Push Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "ringDip",
+  "name": "Ring Dip",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Ring Dip (or Ring Dip, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Teres Major",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "negativeDip",
+  "name": "Negative Dip",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Negative Dip (or Negative Dip, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Pectoralis Major Clavicular Head",
+   "Serratus Anterior",
+   "Teres Major",
+   "Trapezius Middle Fibers",
+   "Triceps Brachii"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "verticalRow",
+  "name": "Vertical Row",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Vertical Row (or Vertical Row, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "wideRow",
+  "name": "Wide Row",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Wide Row (or Wide Row, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "ringRow",
+  "name": "Ring Row",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Ring Row (or Ring Row, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Infraspinatus",
+   "Teres Major",
+   "Teres Minor",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Pectoralis Major Sternal Head"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "tuckFrontLeverRow",
+  "name": "Tuck Front Lever Row",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Tuck Front Lever Row (or Tuck Front Lever Row, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Deltoid Posterior",
+   "Rectus Abdominis",
+   "Brachialis"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "frontLeverRow",
+  "name": "Front Lever Row",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Front Lever Row (or Front Lever Row, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Deltoid Posterior",
+   "Rectus Abdominis",
+   "Brachialis"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "scapularPullUp",
+  "name": "Scapular Pull Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Scapular Pull Up (or Scapular Pull Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "synergistMuscles": [
+   "Latissimus Dorsi",
+   "Levator Scapulae",
+   "Serratus Anterior",
+   "Teres Major"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "deadHang",
+  "name": "Dead Hang",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Dead Hang (or Dead Hang, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Wrist Flexors"
+  ],
+  "synergistMuscles": [
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "negativePullup",
+  "name": "Negative Pull Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Negative Pull Up (or Negative Pull Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Infraspinatus",
+   "Levator Scapulae",
+   "Teres Major",
+   "Teres Minor",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "assistedSquat",
+  "name": "Assisted Squat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Assisted Squat (or Assisted Squat, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Quadriceps"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Gluteus Maximus",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "shrimpSquat",
+  "name": "Shrimp Squat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Shrimp Squat (or Shrimp Squat, Bodyweight)"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Gluteus Maximus"
+  ],
+  "synergistMuscles": [
+   "Adductor Magnus",
+   "Quadriceps",
+   "Soleus"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "nordicCurl",
+  "name": "Nordic Curl",
+  "equipment": [
+   "bodyweight",
+   "band"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight",
+   "Band"
+  ],
+  "programTextForms": [
+   "Nordic Curl (or Nordic Curl, Bodyweight)",
+   "Nordic Curl, Band"
+  ],
+  "types": [
+   "lower",
+   "legs"
+  ],
+  "targetMuscles": [
+   "Hamstrings"
+  ],
+  "synergistMuscles": [
+   "Gastrocnemius",
+   "Gluteus Maximus",
+   "Erector Spinae"
+  ],
+  "bodyParts": [
+   "Thighs"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "handstand",
+  "name": "Handstand",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Handstand (or Handstand, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Trapezius Upper Fibers",
+   "Triceps Brachii",
+   "Serratus Anterior",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "wallHandstand",
+  "name": "Wall Handstand",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Wall Handstand (or Wall Handstand, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Trapezius Upper Fibers",
+   "Triceps Brachii",
+   "Serratus Anterior",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "crowPose",
+  "name": "Crow Pose",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Crow Pose (or Crow Pose, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior"
+  ],
+  "synergistMuscles": [
+   "Triceps Brachii",
+   "Serratus Anterior",
+   "Rectus Abdominis",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "dragonFlag",
+  "name": "Dragon Flag",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Dragon Flag (or Dragon Flag, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques",
+   "Iliopsoas",
+   "Erector Spinae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "copenhagenPlank",
+  "name": "Copenhagen Plank",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Copenhagen Plank (or Copenhagen Plank, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Adductor Magnus"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Obliques",
+   "Gluteus Medius"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "hangingKneeRaise",
+  "name": "Hanging Knee Raise",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Hanging Knee Raise (or Hanging Knee Raise, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Iliopsoas"
+  ],
+  "synergistMuscles": [
+   "Adductor Brevis",
+   "Adductor Longus",
+   "Pectineous",
+   "Rectus Abdominis",
+   "Sartorius",
+   "Tensor Fasciae Latae"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "archHang",
+  "name": "Arch Hang",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Arch Hang (or Arch Hang, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Deltoid Posterior",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "supportHold",
+  "name": "Support Hold",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Support Hold (or Support Hold, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "push"
+  ],
+  "targetMuscles": [
+   "Pectoralis Major Sternal Head"
+  ],
+  "synergistMuscles": [
+   "Deltoid Anterior",
+   "Latissimus Dorsi",
+   "Serratus Anterior",
+   "Triceps Brachii",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Chest"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "pallofPress",
+  "name": "Pallof Press",
+  "equipment": [
+   "band"
+  ],
+  "defaultEquipment": "band",
+  "equipmentDisplayNames": [
+   "Band"
+  ],
+  "programTextForms": [
+   "Pallof Press (or Pallof Press, Band)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "renegadeRow",
+  "name": "Renegade Row",
+  "equipment": [
+   "dumbbell"
+  ],
+  "defaultEquipment": "dumbbell",
+  "equipmentDisplayNames": [
+   "Dumbbell"
+  ],
+  "programTextForms": [
+   "Renegade Row (or Renegade Row, Dumbbell)"
+  ],
+  "types": [
+   "upper",
+   "pull",
+   "core"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi",
+   "Obliques"
+  ],
+  "synergistMuscles": [
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Teres Major",
+   "Deltoid Posterior",
+   "Brachialis",
+   "Brachioradialis",
+   "Rectus Abdominis"
+  ],
+  "bodyParts": [
+   "Back",
+   "Waist"
+  ],
+  "startingWeightLb": 20,
+  "startingWeightKg": 10
+ },
+ {
+  "id": "ringAbRollout",
+  "name": "Ring Ab Rollout",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Ring Ab Rollout (or Ring Ab Rollout, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques",
+   "Latissimus Dorsi",
+   "Serratus Anterior",
+   "Deltoid Anterior",
+   "Iliopsoas"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "kneelingRingAbRollout",
+  "name": "Kneeling Ring Ab Rollout",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Kneeling Ring Ab Rollout (or Kneeling Ring Ab Rollout, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques",
+   "Latissimus Dorsi",
+   "Serratus Anterior",
+   "Deltoid Anterior"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "archerPullUp",
+  "name": "Archer Pull Up",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Archer Pull Up (or Archer Pull Up, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Biceps Brachii",
+   "Brachialis",
+   "Brachioradialis",
+   "Deltoid Posterior",
+   "Teres Major",
+   "Trapezius Lower Fibers",
+   "Trapezius Middle Fibers",
+   "Wrist Flexors"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "skinTheCat",
+  "name": "Skin the Cat",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Skin the Cat (or Skin the Cat, Bodyweight)"
+  ],
+  "types": [
+   "upper",
+   "pull",
+   "core"
+  ],
+  "targetMuscles": [
+   "Latissimus Dorsi"
+  ],
+  "synergistMuscles": [
+   "Deltoid Posterior",
+   "Teres Major",
+   "Rectus Abdominis",
+   "Iliopsoas",
+   "Biceps Brachii"
+  ],
+  "bodyParts": [
+   "Back"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "hollowBodyHold",
+  "name": "Hollow Body Hold",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Hollow Body Hold (or Hollow Body Hold, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques",
+   "Iliopsoas",
+   "Quadriceps"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "deadBug",
+  "name": "Dead Bug",
+  "equipment": [
+   "bodyweight"
+  ],
+  "defaultEquipment": "bodyweight",
+  "equipmentDisplayNames": [
+   "Bodyweight"
+  ],
+  "programTextForms": [
+   "Dead Bug (or Dead Bug, Bodyweight)"
+  ],
+  "types": [
+   "core"
+  ],
+  "targetMuscles": [
+   "Rectus Abdominis"
+  ],
+  "synergistMuscles": [
+   "Obliques",
+   "Iliopsoas"
+  ],
+  "bodyParts": [
+   "Waist"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ },
+ {
+  "id": "shoulderPassThrough",
+  "name": "Shoulder Pass Through",
+  "equipment": [
+   "band"
+  ],
+  "defaultEquipment": "band",
+  "equipmentDisplayNames": [
+   "Band"
+  ],
+  "programTextForms": [
+   "Shoulder Pass Through (or Shoulder Pass Through, Band)"
+  ],
+  "types": [
+   "upper"
+  ],
+  "targetMuscles": [
+   "Deltoid Anterior",
+   "Deltoid Posterior"
+  ],
+  "synergistMuscles": [
+   "Deltoid Lateral",
+   "Infraspinatus",
+   "Teres Minor",
+   "Trapezius Middle Fibers"
+  ],
+  "bodyParts": [
+   "Shoulders"
+  ],
+  "startingWeightLb": 0,
+  "startingWeightKg": 0
+ }
+]

@@ -1,0 +1,53 @@
+{
+  "id": "3d-moderate-30m-band-pu-s7",
+  "name": "Newbie Full Body 3x · 30min · Moderate",
+  "description": "3 days/week, ~30 min sessions, moderate intensity. Equipment: Resistance bands, Pull-up bar.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "band",
+      "pullUpBar"
+    ],
+    "intensity": "moderate",
+    "durationMin": 30,
+    "daysPerWeek": 3,
+    "seed": 7
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 28,
+      "exercises": [
+        "Squat, Bodyweight",
+        "Push Up, Bodyweight",
+        "Bent Over Row, Band",
+        "Dead Bug, Bodyweight",
+        "Bicep Curl, Band"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 28,
+      "exercises": [
+        "Single Leg Deadlift, Bodyweight",
+        "Shoulder Press, Band",
+        "Chin Up, Bodyweight",
+        "Reverse Lunge, Bodyweight",
+        "Triceps Extension, Band"
+      ]
+    },
+    {
+      "name": "Full Body C",
+      "estMinutes": 28,
+      "exercises": [
+        "Squat, Bodyweight",
+        "Bench Press, Band",
+        "Bent Over Row, Band",
+        "Glute Bridge, Band",
+        "Hanging Knee Raise, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 3 days/week, ~30 min sessions, moderate intensity. Equipment: Resistance bands, Pull-up bar.\n# Week 1\n// Estimated ~28 min\n## Full Body A\n// Arms forward for balance, full depth you can control.\nSquat, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Body in one straight line, chest to just above the floor.\nPush Up, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Stand on the band, hinge and row to your hips.\nBent Over Row, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Stand on the band, curl without leaning back.\nBicep Curl, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~28 min\n## Full Body B\n// Reach back with the free leg, keep hips square.\nSingle Leg Deadlift, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Stand on the band, press handles overhead.\nShoulder Press, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Palms facing you, pull chin over the bar. Do negatives if needed.\nChin Up, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Step back, lightly tap the back knee down.\nReverse Lunge, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Band anchored high or under foot, extend fully.\nTriceps Extension, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~28 min\n## Full Body C\n// Arms forward for balance, full depth you can control.\nSquat, Bodyweight / 3x8 / 0kg / 75s / warmup: none\n// Band behind your back, press forward like a push up.\nBench Press, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Stand on the band, hinge and row to your hips.\nBent Over Row, Band / 3x8 / 0kg / 75s / warmup: none\n// Band above knees, push knees out as you bridge.\nGlute Bridge, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Hang still, bring knees up without swinging.\nHanging Knee Raise, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n",
+  "starter": true
+}

@@ -1,0 +1,73 @@
+{
+  "id": "4d-moderate-60m-band-bb-cable-db-kb-lat-pu-s3",
+  "name": "Newbie Upper/Lower 4x · 60min · Moderate",
+  "description": "4 days/week, ~60 min sessions, moderate intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "band",
+      "barbell",
+      "dualPulley",
+      "dumbbell",
+      "kettlebell",
+      "latPulldown",
+      "pullUpBar"
+    ],
+    "intensity": "moderate",
+    "durationMin": 60,
+    "daysPerWeek": 4,
+    "seed": 3
+  },
+  "days": [
+    {
+      "name": "Upper A",
+      "estMinutes": 57,
+      "exercises": [
+        "Bench Press, Barbell",
+        "Bent Over Row, Barbell",
+        "Shoulder Press, Dumbbell",
+        "Lat Pulldown, Cable",
+        "Bicep Curl, Dumbbell",
+        "Triceps Pushdown, Cable",
+        "Lateral Raise, Dumbbell"
+      ]
+    },
+    {
+      "name": "Lower A",
+      "estMinutes": 37,
+      "exercises": [
+        "Goblet Squat, Dumbbell",
+        "Romanian Deadlift, Barbell",
+        "Reverse Lunge, Cable",
+        "Standing Calf Raise, Dumbbell",
+        "Dead Bug, Bodyweight"
+      ]
+    },
+    {
+      "name": "Upper B",
+      "estMinutes": 52,
+      "exercises": [
+        "Overhead Press, Barbell",
+        "Chin Up, Bodyweight",
+        "Incline Bench Press, Dumbbell",
+        "Seated Row, Cable",
+        "Face Pull, Band",
+        "Hammer Curl, Dumbbell",
+        "Triceps Extension, Dumbbell"
+      ]
+    },
+    {
+      "name": "Lower B",
+      "estMinutes": 37,
+      "exercises": [
+        "Deadlift, Barbell",
+        "Squat, Barbell",
+        "Hip Thrust, Barbell",
+        "Bulgarian Split Squat, Dumbbell",
+        "Cable Crunch, Cable"
+      ]
+    }
+  ],
+  "text": "// 4 days/week, ~60 min sessions, moderate intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.\n# Week 1\n// Estimated ~57 min\n## Upper A\n// Shoulder blades pinched, bar to lower chest, feet planted.\nBench Press, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Hinge to ~45°, pull the bar to your belly button.\nBent Over Row, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Seated or standing, press up without arching your back.\nShoulder Press, Dumbbell / 3x8 / 8kg / 120s / progress: dp(2kg, 8, 12)\n// Thighs under the pad, pull the bar to your upper chest.\nLat Pulldown, Cable / 3x8 / 25kg / 120s / progress: dp(2.5kg, 8, 12)\n// Elbows pinned to your sides, no swinging.\nBicep Curl, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Elbows pinned, push the bar/rope down to full lockout.\nTriceps Pushdown, Cable / 3x10 / 15kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Lead with the elbows, raise to shoulder height.\nLateral Raise, Dumbbell / 3x10 / 4kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n\n// Estimated ~37 min\n## Lower A\n// Hold the dumbbell at your chest, elbows inside knees.\nGoblet Squat, Dumbbell / 3x8 / 12kg / 120s / progress: dp(2kg, 8, 12)\n// Soft knees, push hips back until hamstrings stretch.\nRomanian Deadlift, Barbell / 3x8 / 30kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Hold handles from the low pulleys, step back.\nReverse Lunge, Cable / 3x10 / 10kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// On a step if you can, pause at the top.\nStanding Calf Raise, Dumbbell / 3x10 / 10kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~52 min\n## Upper B\n// Squeeze glutes, press the bar up and move your head through.\nOverhead Press, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Palms facing you, pull chin over the bar. Do negatives if needed.\nChin Up, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Bench at ~30°, press up and slightly back.\nIncline Bench Press, Dumbbell / 3x8 / 8kg / 120s / progress: dp(2kg, 8, 12)\n// Low pulley, sit tall, pull handles to your ribs.\nSeated Row, Cable / 3x8 / 20kg / 120s / progress: dp(2.5kg, 8, 12)\n// Anchor at face height, pull toward your forehead, thumbs back.\nFace Pull, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Palms facing each other the whole time.\nHammer Curl, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// One dumbbell overhead with both hands, lower behind your head.\nTriceps Extension, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n\n// Estimated ~37 min\n## Lower B\n// Bar over mid-foot, flat back, push the floor away.\nDeadlift, Barbell / 3x8 / 40kg / 120s / progress: lp(5kg, 1, 0, 10%, 3, 0)\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 3x8 / 20kg / 120s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Upper back on the bench, chin tucked, squeeze at the top.\nHip Thrust, Barbell / 3x10 / 30kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n// Back foot on the bench, stay tall.\nBulgarian Split Squat, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Kneel with the rope, crunch ribs toward hips.\nCable Crunch, Cable / 3x10 / 15kg / 75s / warmup: none / progress: dp(2.5kg, 10, 14)\n",
+  "starter": true
+}

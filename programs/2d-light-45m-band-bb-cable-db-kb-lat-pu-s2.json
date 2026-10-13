@@ -1,0 +1,51 @@
+{
+  "id": "2d-light-45m-band-bb-cable-db-kb-lat-pu-s2",
+  "name": "Newbie Full Body 2x · 45min · Light",
+  "description": "2 days/week, ~45 min sessions, light intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "band",
+      "barbell",
+      "dualPulley",
+      "dumbbell",
+      "kettlebell",
+      "latPulldown",
+      "pullUpBar"
+    ],
+    "intensity": "light",
+    "durationMin": 45,
+    "daysPerWeek": 2,
+    "seed": 2
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 34,
+      "exercises": [
+        "Squat, Barbell",
+        "Bench Press, Dumbbell",
+        "Bent Over One Arm Row, Dumbbell",
+        "Cable Crunch, Cable",
+        "Bicep Curl, Cable",
+        "Lateral Raise, Cable",
+        "Standing Calf Raise, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 30,
+      "exercises": [
+        "Romanian Deadlift, Dumbbell",
+        "Overhead Press, Barbell",
+        "Chin Up, Bodyweight",
+        "Split Squat, Dumbbell",
+        "Triceps Pushdown, Cable",
+        "Standing Row Rear Delt With Rope, Cable",
+        "Dead Bug, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 2 days/week, ~45 min sessions, light intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.\n# Week 1\n// Estimated ~34 min\n## Full Body A\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 2x10 / 20kg / 90s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Lower with control until elbows are just below the bench.\nBench Press, Dumbbell / 2x10 / 10kg / 90s / progress: dp(2kg, 10, 14)\n// Hand on the bench, pull the dumbbell to your hip.\nBent Over One Arm Row, Dumbbell / 2x10 / 12kg / 90s / progress: dp(2kg, 10, 14)\n// Pulley high, kneel with the rope, crunch ribs toward hips.\nCable Crunch, Cable / 2x12 / 15kg / 60s / warmup: none / progress: dp(2.5kg, 12, 16)\n// Low pulley, elbows still, squeeze at the top.\nBicep Curl, Cable / 2x12 / 7.5kg / 60s / warmup: none / progress: dp(2.5kg, 12, 16)\n// Low pulley across your body, raise out to the side.\nLateral Raise, Cable / 2x12 / 5kg / 60s / warmup: none / progress: dp(2.5kg, 12, 16)\n// On a step if you can, slow on the way down.\nStanding Calf Raise, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~30 min\n## Full Body B\n// Soft knees, slide dumbbells down your thighs, hips back.\nRomanian Deadlift, Dumbbell / 2x10 / 10kg / 90s / progress: dp(2kg, 10, 14)\n// Squeeze glutes, press the bar up and move your head through.\nOverhead Press, Barbell / 2x10 / 20kg / 90s / progress: lp(2.5kg, 1, 0, 10%, 3, 0)\n// Palms facing you, pull chin over the bar. Do negatives if needed.\nChin Up, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Feet staggered, drop the back knee straight down.\nSplit Squat, Dumbbell / 2x12 / 6kg / 60s / warmup: none / progress: dp(2kg, 12, 16)\n// Elbows pinned, push the bar/rope down to full lockout.\nTriceps Pushdown, Cable / 2x12 / 15kg / 60s / warmup: none / progress: dp(2.5kg, 12, 16)\n// Rope at face height, pull to your forehead, elbows high.\nStanding Row Rear Delt With Rope, Cable / 2x12 / 7.5kg / 60s / warmup: none / progress: dp(2.5kg, 12, 16)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n",
+  "starter": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "3d-hard-60m-bb-pu-s10",
+  "name": "Newbie Full Body 3x · 60min · Hard",
+  "description": "3 days/week, ~60 min sessions, hard intensity. Equipment: Barbell, rack & bench, Pull-up bar.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "barbell",
+      "pullUpBar"
+    ],
+    "intensity": "hard",
+    "durationMin": 60,
+    "daysPerWeek": 3,
+    "seed": 10
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 55,
+      "exercises": [
+        "Squat, Barbell",
+        "Bench Press, Barbell",
+        "Bent Over Row, Barbell",
+        "Dead Bug, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 54,
+      "exercises": [
+        "Romanian Deadlift, Barbell",
+        "Overhead Press, Barbell",
+        "Chin Up, Bodyweight",
+        "Lunge, Barbell",
+        "Bench Dip, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body C",
+      "estMinutes": 52,
+      "exercises": [
+        "Squat, Barbell",
+        "Push Up, Bodyweight",
+        "Inverted Row, Bodyweight",
+        "Hip Thrust, Barbell",
+        "Hanging Knee Raise, Bodyweight",
+        "Bicep Curl, Barbell"
+      ]
+    }
+  ],
+  "text": "// 3 days/week, ~60 min sessions, hard intensity. Equipment: Barbell, rack & bench, Pull-up bar.\n# Week 1\n// Estimated ~55 min\n## Full Body A\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Shoulder blades pinched, bar to lower chest, feet planted.\nBench Press, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Hinge to ~45°, pull the bar to your belly button.\nBent Over Row, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~54 min\n## Full Body B\n// Soft knees, push hips back until hamstrings stretch.\nRomanian Deadlift, Barbell / 3x5, 1x5+ / 30kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Squeeze glutes, press the bar up and move your head through.\nOverhead Press, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Palms facing you, pull chin over the bar. Do negatives if needed.\nChin Up, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Bar on your back, controlled step forward.\nLunge, Barbell / 3x8 / 20kg / 90s / warmup: none / progress: dp(2.5kg, 8, 12)\n// Hands on the bench edge, lower until elbows reach 90°.\nBench Dip, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~52 min\n## Full Body C\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 3x5, 1x5+ / 20kg / 180s\n// Body in one straight line, chest to just above the floor.\nPush Up, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Bar set low in the rack, body straight, pull chest to bar.\nInverted Row, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Upper back on the bench, chin tucked, squeeze at the top.\nHip Thrust, Barbell / 3x8 / 30kg / 90s / warmup: none / progress: dp(2.5kg, 8, 12)\n// Hang still, bring knees up without swinging.\nHanging Knee Raise, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Shoulder-width grip, elbows by your sides.\nBicep Curl, Barbell / 3x8 / 15kg / 90s / warmup: none / progress: dp(2.5kg, 8, 12)\n",
+  "starter": true
+}

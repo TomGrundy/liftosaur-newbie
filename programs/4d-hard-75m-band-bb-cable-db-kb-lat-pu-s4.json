@@ -1,0 +1,71 @@
+{
+  "id": "4d-hard-75m-band-bb-cable-db-kb-lat-pu-s4",
+  "name": "Newbie Upper/Lower 4x · 75min · Hard",
+  "description": "4 days/week, ~75 min sessions, hard intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "band",
+      "barbell",
+      "dualPulley",
+      "dumbbell",
+      "kettlebell",
+      "latPulldown",
+      "pullUpBar"
+    ],
+    "intensity": "hard",
+    "durationMin": 75,
+    "daysPerWeek": 4,
+    "seed": 4
+  },
+  "days": [
+    {
+      "name": "Upper A",
+      "estMinutes": 75,
+      "exercises": [
+        "Bench Press, Barbell",
+        "Bent Over One Arm Row, Dumbbell",
+        "Shoulder Press, Dumbbell",
+        "Lat Pulldown, Cable",
+        "Bicep Curl, Dumbbell",
+        "Triceps Pushdown, Cable"
+      ]
+    },
+    {
+      "name": "Lower A",
+      "estMinutes": 51,
+      "exercises": [
+        "Squat, Barbell",
+        "Cable Pull Through, Cable",
+        "Split Squat, Dumbbell",
+        "Standing Calf Raise, Dumbbell",
+        "Dead Bug, Bodyweight"
+      ]
+    },
+    {
+      "name": "Upper B",
+      "estMinutes": 69,
+      "exercises": [
+        "Overhead Press, Barbell",
+        "Chin Up, Bodyweight",
+        "Incline Bench Press, Dumbbell",
+        "Chest-Supported Row, Dumbbell",
+        "Face Pull, Band",
+        "Hammer Curl, Dumbbell"
+      ]
+    },
+    {
+      "name": "Lower B",
+      "estMinutes": 51,
+      "exercises": [
+        "Deadlift, Barbell",
+        "Goblet Squat, Dumbbell",
+        "Hip Thrust, Barbell",
+        "Reverse Lunge, Dumbbell",
+        "Hanging Knee Raise, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 4 days/week, ~75 min sessions, hard intensity. Equipment: Resistance bands, Barbell, rack & bench, Dual adjustable pulley (cable), Dumbbells & bench, Kettlebells, Lat pulldown station, Pull-up bar.\n# Week 1\n// Estimated ~75 min\n## Upper A\n// Shoulder blades pinched, bar to lower chest, feet planted.\nBench Press, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Hand on the bench, pull the dumbbell to your hip.\nBent Over One Arm Row, Dumbbell / 3x5, 1x5+ / 12kg / 180s / progress: dp(2kg, 5, 9)\n// Seated or standing, press up without arching your back.\nShoulder Press, Dumbbell / 3x5, 1x5+ / 8kg / 180s / progress: dp(2kg, 5, 9)\n// Thighs under the pad, pull the bar to your upper chest.\nLat Pulldown, Cable / 3x5, 1x5+ / 25kg / 180s / progress: dp(2.5kg, 5, 9)\n// Elbows pinned to your sides, no swinging.\nBicep Curl, Dumbbell / 3x8 / 6kg / 90s / warmup: none / progress: dp(2kg, 8, 12)\n// Pulley high, elbows pinned, push down to lockout.\nTriceps Pushdown, Cable / 3x8 / 12.5kg / 90s / warmup: none / progress: dp(2.5kg, 8, 12)\n\n// Estimated ~51 min\n## Lower A\n// Brace, sit between your hips, knees track over toes.\nSquat, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Low pulley with rope, face away, hinge and squeeze glutes.\nCable Pull Through, Cable / 3x5, 1x5+ / 15kg / 180s / progress: dp(2.5kg, 5, 9)\n// Feet staggered, drop the back knee straight down.\nSplit Squat, Dumbbell / 3x8 / 6kg / 90s / warmup: none / progress: dp(2kg, 8, 12)\n// On a step if you can, pause at the top.\nStanding Calf Raise, Dumbbell / 3x8 / 10kg / 90s / warmup: none / progress: dp(2kg, 8, 12)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~69 min\n## Upper B\n// Squeeze glutes, press the bar up and move your head through.\nOverhead Press, Barbell / 3x5, 1x5+ / 20kg / 180s / progress: lp(2.5kg, 1, 0, 10%, 2, 0)\n// Palms facing you, pull chin over the bar. Do negatives if needed.\nChin Up, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Bench at ~30°, press up and slightly back.\nIncline Bench Press, Dumbbell / 3x5, 1x5+ / 8kg / 180s / progress: dp(2kg, 5, 9)\n// Chest on an incline bench, row elbows back.\nChest-Supported Row, Dumbbell / 3x5, 1x5+ / 10kg / 180s / progress: dp(2kg, 5, 9)\n// Anchor at face height, pull toward your forehead, thumbs back.\nFace Pull, Band / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Palms facing each other the whole time.\nHammer Curl, Dumbbell / 3x8 / 6kg / 90s / warmup: none / progress: dp(2kg, 8, 12)\n\n// Estimated ~51 min\n## Lower B\n// Bar over mid-foot, flat back, push the floor away.\nDeadlift, Barbell / 3x5, 1x5+ / 40kg / 180s / progress: lp(5kg, 1, 0, 10%, 2, 0)\n// Hold the dumbbell at your chest, elbows inside knees.\nGoblet Squat, Dumbbell / 3x5, 1x5+ / 12kg / 180s / progress: dp(2kg, 5, 9)\n// Upper back on the bench, chin tucked, squeeze at the top.\nHip Thrust, Barbell / 3x8 / 30kg / 90s / warmup: none / progress: dp(2.5kg, 8, 12)\n// Step back, front shin vertical, push through the front heel.\nReverse Lunge, Dumbbell / 3x8 / 6kg / 90s / warmup: none / progress: dp(2kg, 8, 12)\n// Hang still, bring knees up without swinging.\nHanging Knee Raise, Bodyweight / 3x8, 1x8+ / 0kg / 90s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n",
+  "starter": true
+}

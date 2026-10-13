@@ -1,0 +1,49 @@
+{
+  "id": "3d-light-30m-bw-s8",
+  "name": "Newbie Full Body 3x · 30min · Light",
+  "description": "3 days/week, ~30 min sessions, light intensity. Equipment: Bodyweight only.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [],
+    "intensity": "light",
+    "durationMin": 30,
+    "daysPerWeek": 3,
+    "seed": 8
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 13,
+      "exercises": [
+        "Squat, Bodyweight",
+        "Push Up, Bodyweight",
+        "Dead Bug, Bodyweight",
+        "Standing Calf Raise, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 17,
+      "exercises": [
+        "Single Leg Deadlift, Bodyweight",
+        "Pike Push Up, Bodyweight",
+        "Reverse Lunge, Bodyweight",
+        "Diamond Push Up, Bodyweight",
+        "Crunch, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body C",
+      "estMinutes": 17,
+      "exercises": [
+        "Squat, Bodyweight",
+        "Push Up, Bodyweight",
+        "Hip Thrust, Bodyweight",
+        "Crunch, Bodyweight",
+        "Diamond Push Up, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 3 days/week, ~30 min sessions, light intensity. Equipment: Bodyweight only.\n# Week 1\n// Estimated ~13 min\n## Full Body A\n// Arms forward for balance, full depth you can control.\nSquat, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Body in one straight line, chest to just above the floor.\nPush Up, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// On a step if you can, slow on the way down.\nStanding Calf Raise, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~17 min\n## Full Body B\n// Reach back with the free leg, keep hips square.\nSingle Leg Deadlift, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Hips high, lower your head toward the floor between your hands.\nPike Push Up, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Step back, lightly tap the back knee down.\nReverse Lunge, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Hands together under your chest, elbows close.\nDiamond Push Up, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Curl ribs toward hips, don't pull on your neck.\nCrunch, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~17 min\n## Full Body C\n// Arms forward for balance, full depth you can control.\nSquat, Bodyweight / 2x8 / 0kg / 60s / warmup: none\n// Body in one straight line, chest to just above the floor.\nPush Up, Bodyweight / 2x8 / 0kg / 60s / warmup: none\n// Shoulders on a couch or bench, squeeze at the top.\nHip Thrust, Bodyweight / 2x8 / 0kg / 60s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Curl ribs toward hips, don't pull on your neck.\nCrunch, Bodyweight / 2x8 / 0kg / 60s / warmup: none\n// Hands together under your chest, elbows close.\nDiamond Push Up, Bodyweight / 2x8 / 0kg / 60s / warmup: none\n",
+  "starter": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "3d-moderate-45m-db-s6",
+  "name": "Newbie Full Body 3x · 45min · Moderate",
+  "description": "3 days/week, ~45 min sessions, moderate intensity. Equipment: Dumbbells & bench.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "dumbbell"
+    ],
+    "intensity": "moderate",
+    "durationMin": 45,
+    "daysPerWeek": 3,
+    "seed": 6
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 41,
+      "exercises": [
+        "Goblet Squat, Dumbbell",
+        "Incline Bench Press, Dumbbell",
+        "Bent Over One Arm Row, Dumbbell",
+        "Dead Bug, Bodyweight",
+        "Bicep Curl, Dumbbell"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 42,
+      "exercises": [
+        "Romanian Deadlift, Dumbbell",
+        "Shoulder Press, Dumbbell",
+        "Reverse Lunge, Dumbbell",
+        "Triceps Extension, Dumbbell",
+        "Reverse Fly, Dumbbell",
+        "Crunch, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body C",
+      "estMinutes": 41,
+      "exercises": [
+        "Goblet Squat, Dumbbell",
+        "Bench Press, Dumbbell",
+        "Chest-Supported Row, Dumbbell",
+        "Glute Bridge, Dumbbell",
+        "Crunch, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 3 days/week, ~45 min sessions, moderate intensity. Equipment: Dumbbells & bench.\n# Week 1\n// Estimated ~41 min\n## Full Body A\n// Hold the dumbbell at your chest, elbows inside knees.\nGoblet Squat, Dumbbell / 3x8 / 12kg / 120s / progress: dp(2kg, 8, 12)\n// Bench at ~30°, press up and slightly back.\nIncline Bench Press, Dumbbell / 3x8 / 8kg / 120s / progress: dp(2kg, 8, 12)\n// Hand on the bench, pull the dumbbell to your hip.\nBent Over One Arm Row, Dumbbell / 3x8 / 12kg / 120s / progress: dp(2kg, 8, 12)\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Elbows pinned to your sides, no swinging.\nBicep Curl, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n\n// Estimated ~42 min\n## Full Body B\n// Soft knees, slide dumbbells down your thighs, hips back.\nRomanian Deadlift, Dumbbell / 3x8 / 10kg / 120s / progress: dp(2kg, 8, 12)\n// Seated or standing, press up without arching your back.\nShoulder Press, Dumbbell / 3x8 / 8kg / 120s / progress: dp(2kg, 8, 12)\n// Step back, front shin vertical, push through the front heel.\nReverse Lunge, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// One dumbbell overhead with both hands, lower behind your head.\nTriceps Extension, Dumbbell / 3x10 / 6kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Hinge forward, raise arms out wide with soft elbows.\nReverse Fly, Dumbbell / 3x10 / 4kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Curl ribs toward hips, don't pull on your neck.\nCrunch, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~41 min\n## Full Body C\n// Hold the dumbbell at your chest, elbows inside knees.\nGoblet Squat, Dumbbell / 3x8 / 12kg / 120s\n// Lower with control until elbows are just below the bench.\nBench Press, Dumbbell / 3x8 / 10kg / 120s / progress: dp(2kg, 8, 12)\n// Chest on an incline bench, row elbows back.\nChest-Supported Row, Dumbbell / 3x8 / 10kg / 120s / progress: dp(2kg, 8, 12)\n// Dumbbell on hips, drive up through heels.\nGlute Bridge, Dumbbell / 3x10 / 12kg / 75s / warmup: none / progress: dp(2kg, 10, 14)\n// Curl ribs toward hips, don't pull on your neck.\nCrunch, Bodyweight / 3x8 / 0kg / 75s / warmup: none\n",
+  "starter": true
+}

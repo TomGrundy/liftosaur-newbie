@@ -1,0 +1,131 @@
+name: Generate program
+
+# Run from GitHub: Actions → "Generate program" → Run workflow.
+# Generates a new beginner program, uploads it to your Liftosaur account
+# (if the LIFTOSAUR_API_KEY secret is set), commits it, and republishes the site.
+on:
+  workflow_dispatch:
+    inputs:
+      barbell:
+        description: "Equipment: barbell, rack & bench"
+        type: boolean
+        default: true
+      dumbbells:
+        description: "Equipment: dumbbells & bench"
+        type: boolean
+        default: true
+      kettlebells:
+        description: "Equipment: kettlebells"
+        type: boolean
+        default: true
+      dual_pulley:
+        description: "Equipment: dual adjustable pulley (cable)"
+        type: boolean
+        default: true
+      lat_pulldown:
+        description: "Equipment: lat pulldown station (pull-down from above)"
+        type: boolean
+        default: true
+      bands:
+        description: "Equipment: resistance bands"
+        type: boolean
+        default: true
+      pull_up_bar:
+        description: "Equipment: pull-up bar"
+        type: boolean
+        default: true
+      intensity:
+        description: "Intensity"
+        type: choice
+        options: [light, moderate, hard]
+        default: moderate
+      duration:
+        description: "Session length (minutes)"
+        type: choice
+        options: ["30", "45", "60", "75", "90"]
+        default: "60"
+      days:
+        description: "Days per week"
+        type: choice
+        options: ["2", "3", "4", "5"]
+        default: "3"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: generate-program
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Collect equipment
+        id: gear
+        env:
+          BARBELL: ${{ inputs.barbell }}
+          DUMBBELLS: ${{ inputs.dumbbells }}
+          KETTLEBELLS: ${{ inputs.kettlebells }}
+          DUAL_PULLEY: ${{ inputs.dual_pulley }}
+          LAT_PULLDOWN: ${{ inputs.lat_pulldown }}
+          BANDS: ${{ inputs.bands }}
+          PULL_UP_BAR: ${{ inputs.pull_up_bar }}
+        run: |
+          gear=()
+          [ "$BARBELL" = "true" ] && gear+=(barbell)
+          [ "$DUMBBELLS" = "true" ] && gear+=(dumbbell)
+          [ "$KETTLEBELLS" = "true" ] && gear+=(kettlebell)
+          [ "$DUAL_PULLEY" = "true" ] && gear+=(dualPulley)
+          [ "$LAT_PULLDOWN" = "true" ] && gear+=(latPulldown)
+          [ "$BANDS" = "true" ] && gear+=(band)
+          [ "$PULL_UP_BAR" = "true" ] && gear+=(pullUpBar)
+          list=$(IFS=,; echo "${gear[*]}")
+          echo "list=${list:-none}" >> "$GITHUB_OUTPUT"
+
+      - name: Generate, validate and upload
+        env:
+          LIFTOSAUR_API_KEY: ${{ secrets.LIFTOSAUR_API_KEY }}
+          GEAR: ${{ steps.gear.outputs.list }}
+          INTENSITY: ${{ inputs.intensity }}
+          DURATION: ${{ inputs.duration }}
+          DAYS: ${{ inputs.days }}
+        run: |
+          args=(generate --gear "$GEAR" --intensity "$INTENSITY" --duration "$DURATION" --days "$DAYS")
+          if [ -n "$LIFTOSAUR_API_KEY" ]; then
+            args+=(--upload)
+          else
+            echo "::warning::LIFTOSAUR_API_KEY secret is not set — the program will be published to the site but not uploaded to Liftosaur."
+          fi
+          npm run cli -- "${args[@]}"
+
+      - name: Commit new program
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add programs
+          if git diff --cached --quiet; then
+            echo "No new program to commit"
+            exit 0
+          fi
+          git commit -m "Add generated program (${{ inputs.days }}d, ${{ inputs.intensity }}, ${{ inputs.duration }}min)"
+          git pull --rebase
+          git push
+
+  # Pushes made with GITHUB_TOKEN don't trigger other workflows, so deploy explicitly.
+  deploy:
+    needs: generate
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/deploy.yml

@@ -1,0 +1,40 @@
+{
+  "id": "2d-moderate-30m-band-kb-s11",
+  "name": "Newbie Full Body 2x · 30min · Moderate",
+  "description": "2 days/week, ~30 min sessions, moderate intensity. Equipment: Resistance bands, Kettlebells.",
+  "createdAt": "2026-01-01T00:00:00.000Z",
+  "options": {
+    "gear": [
+      "band",
+      "kettlebell"
+    ],
+    "intensity": "moderate",
+    "durationMin": 30,
+    "daysPerWeek": 2,
+    "seed": 11
+  },
+  "days": [
+    {
+      "name": "Full Body A",
+      "estMinutes": 27,
+      "exercises": [
+        "Goblet Squat, Kettlebell",
+        "Bench Press, Band",
+        "Bent Over Row, Band",
+        "Dead Bug, Bodyweight"
+      ]
+    },
+    {
+      "name": "Full Body B",
+      "estMinutes": 27,
+      "exercises": [
+        "Kettlebell Swing, Kettlebell",
+        "Shoulder Press, Band",
+        "Kneeling Pulldown, Band",
+        "Reverse Lunge, Bodyweight"
+      ]
+    }
+  ],
+  "text": "// 2 days/week, ~30 min sessions, moderate intensity. Equipment: Resistance bands, Kettlebells.\n# Week 1\n// Estimated ~27 min\n## Full Body A\n// Hold the bell by the horns at your chest.\nGoblet Squat, Kettlebell / 3x8 / 12kg / 120s / progress: dp(4kg, 8, 12)\n// Band behind your back, press forward like a push up.\nBench Press, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Stand on the band, hinge and row to your hips.\nBent Over Row, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Low back pressed into the floor, extend opposite arm and leg.\nDead Bug, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n\n// Estimated ~27 min\n## Full Body B\n// Hike the bell back, snap the hips — it's a hinge, not a squat.\nKettlebell Swing, Kettlebell / 3x8 / 12kg / 120s / progress: dp(4kg, 8, 12)\n// Stand on the band, press handles overhead.\nShoulder Press, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Anchor the band high, kneel and pull elbows to your sides.\nKneeling Pulldown, Band / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n// Step back, lightly tap the back knee down.\nReverse Lunge, Bodyweight / 3x8 / 0kg / 75s / warmup: none / progress: custom(maxReps: 15) {~\n  if (completedReps >= reps && reps[ns] < state.maxReps) {\n    reps += 1\n  }\n~}\n",
+  "starter": true
+}
